@@ -1,0 +1,22 @@
+{
+  "Navbar" : {
+    "home" : "Home",
+    "services" : "Services",
+    "contact" : "Contact",
+    "blog" : "Blog"
+  },
+
+  "Hero" : {
+    "title" : "Corporate Website Development",
+    "description" : "Corporate website development is one of the most powerful tools for acquiring new clients. We develop business websites that not only look great but also drive real conversions."
+  },
+
+  "Button" : {
+    "ctaText" : "Services",
+    "ctaContact" : "Contact"
+  },
+
+  "MainText" : {
+    "sectionOne" : "The foundation of a strong online presence today is website development. Whether it’s a simple landing page, a corporate website, or an e-commerce store, our web development services help ensure that your website is fast, modern, and appealing to your target audience. Entrust us with your corporate website development and create a professional online image with us. If you want your company to stand out from the competition through custom website development, we offer professional solutions."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Navbar" : {
+    "home" : "Kezdőlap",
+    "services" : "Szolgáltatások",
+    "contact" : "Kapcsolat",
+    "blog" : "Blog"
+  },
+
+  "Hero" :{
+    "title" : "Céges weboldal fejlesztés",
+    "description" : "Egy céges weboldal fejlesztés az ügyfélszerzés egyik legfontosabb eszköze. Mi olyan üzleti weboldalakat fejlesztünk, amelyek nemcsak jól néznek ki, hanem konverziót is hoznak."
+  },
+
+  "Button" : {
+    "ctaText" : "Szolgáltatások",
+    "ctaContact" : "Kapcsolat"
+  },
+
+  "MainText" : {
+    "sectionOne" : "A weboldal készítés alapja az online jelenlétnek manapság. Legyen szó egy egyszerű bemutatkozó oldalról, céges weboldalról vagy egy webshop fejlesztéséről. Webfejlesztési szolgáltatásaink segítenek abban, hogy weboldalad gyors, modern és célközönséged számára vonzó lehessen. Bízd ránk a céges weboldal fejlesztést és teremtsd meg a profi online arculatot velünk. Ha szeretnéd, hogy céged egyedi weboldal készítés révén kitűnjön a versenytársak közül, mi professzionális megoldást kínálunk."
+  }
+}
