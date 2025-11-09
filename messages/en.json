@@ -13,10 +13,32 @@
 
   "Button" : {
     "ctaText" : "Services",
-    "ctaContact" : "Contact"
+    "ctaContact" : "Contact",
+    "ctaToServices" : "Read More"
   },
 
   "MainText" : {
     "sectionOne" : "The foundation of a strong online presence today is website development. Whether it’s a simple landing page, a corporate website, or an e-commerce store, our web development services help ensure that your website is fast, modern, and appealing to your target audience. Entrust us with your corporate website development and create a professional online image with us. If you want your company to stand out from the competition through custom website development, we offer professional solutions."
-  }
+  },
+
+  "maincard" : [
+    {
+      "id": 1,
+      "title": "Performance Focus",
+      "subtitle": "We develop fast, optimized, and reliable websites that deliver an exceptional user experience.",
+      "icon" : "speed"
+    },
+    {
+      "id": 2,
+      "title": "Full-Service Solution",
+      "subtitle": "From design to development and maintenance, we handle everything to ensure a transparent and efficient project.",
+      "icon" : "tips"
+    },
+    {
+      "id": 3,
+      "title": "Modern Technologies",
+      "subtitle": "We use Next.js and React to build modern, fast, and future-proof websites.",
+      "icon" : "safe"
+    }
+  ]
 }

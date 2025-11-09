@@ -7,9 +7,7 @@ import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 import Link from 'next/link'
 
-import LanguageSwitcher from '../LanguageSwitcher'
-import MenuIcon from '@mui/icons-material/Menu'
-import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined'
+import LanguageSwitcher from '../Button/LanguageSwitcher'
 
 const SUPPORTED_LOCALES = ['en', 'hu']
 
@@ -48,11 +46,12 @@ const Navbar = ({ locale } : Props) => {
         <div className={`flex flex-col ${isOpen ? 'pb-4' : ''}`}>
             <div className='flex justify-between items-center'>
                 <Image
-                    src="/white.png"
+                    src="/new.png"
                     alt='Egyedi webfejlesztés'
                     width={180}
                     height={100}
                     priority
+                    className='lg:w-50 lg:h-auto'
                 />
 
                 <div className='hidden lg:flex space-x-8 text-xl'>

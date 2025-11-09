@@ -5,6 +5,7 @@ import type { ReactNode } from 'react'
 import { Geist } from "next/font/google"
 import '../globals.css'
 import Navbar from '@/components/Nav/Navbar'
+import { BackgroundGlow } from '@/components/background/GlowEffect'
 
 const geist = Geist({ 
   subsets: ['latin']
@@ -32,6 +33,8 @@ export default async function LocaleLayout({
     <html lang={locale} className={geist.className}>
       <body>
         <NextIntlClientProvider locale={locale as Locale} messages={messages}>
+
+          <BackgroundGlow/>
 
           <header>
             <Navbar locale={locale}/>

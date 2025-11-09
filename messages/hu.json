@@ -13,10 +13,32 @@
 
   "Button" : {
     "ctaText" : "Szolgáltatások",
-    "ctaContact" : "Kapcsolat"
+    "ctaContact" : "Kapcsolat",
+    "ctaToServices" : "Tovább"
   },
 
   "MainText" : {
     "sectionOne" : "A weboldal készítés alapja az online jelenlétnek manapság. Legyen szó egy egyszerű bemutatkozó oldalról, céges weboldalról vagy egy webshop fejlesztéséről. Webfejlesztési szolgáltatásaink segítenek abban, hogy weboldalad gyors, modern és célközönséged számára vonzó lehessen. Bízd ránk a céges weboldal fejlesztést és teremtsd meg a profi online arculatot velünk. Ha szeretnéd, hogy céged egyedi weboldal készítés révén kitűnjön a versenytársak közül, mi professzionális megoldást kínálunk."
-  }
+  },
+
+  "maincard" : [
+    {
+      "id": 1,
+      "title": "Teljesítmény fókusz",
+      "subtitle": "Gyors, optimalizált és megbízható weboldalakat fejlesztünk, amelyek kiváló felhasználói élményt nyújtanak.",
+      "icon" : "speed"
+    },
+    {
+      "id": 2,
+      "title": "Teljes körű megoldás",
+      "subtitle": "A tervezéstől a fejlesztésen át a karbantartásig mindent egy kézben kínálunk, hogy a projekted átlátható és hatékony legyen.",
+      "icon" : "tips"
+    },
+    {
+      "id": 3,
+      "title": "Modern technológiák",
+      "subtitle": "Next.js és React alapú fejlesztésekkel dolgozunk, hogy weboldalad modern, gyors és jövőbiztos legyen.",
+      "icon" : "safe"
+    }
+  ]
 }

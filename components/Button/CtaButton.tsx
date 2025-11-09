@@ -11,7 +11,7 @@ const CtaButton = ({ href, text } : Props) => {
   return (
     <Link
         href={href}
-        className='text-center cta-button bg-white text-black hover:bg-gray-200'
+        className='cta-button bg-white text-black hover:bg-gray-200'
     >
         {text}
     </Link>

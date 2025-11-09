@@ -7,19 +7,35 @@
     text-shadow: 0 0 10px #fff; /* x, y, blur, color */
   }
 
+  .section-top {
+    @apply mt-20;
+  }
+
   .glow-subtitle {
     color: #fff;
     text-shadow: 0 0 5px #fff; /* x, y, blur, color */
   }
 
   .cta-button {
-    @apply px-8 py-2 rounded-lg items-center font-bold flex text-lg md:text-xl transition-all duration-300 hover:scale-103;
+    @apply px-8 py-2 rounded-lg flex items-center justify-center font-bold  text-lg md:text-xl transition-all duration-300 hover:scale-105 text-center w-full max-w-sm mx-auto;
+  }
+
+  .animate-thing {
+    @apply transition-all duration-300 hover:scale-105;
+  }
+
+  .card-title {
+    @apply text-xl font-bold text-center;
+  }
+
+  .card-subtitle {
+    @apply text-gray-300 text-center;
   }
 }
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000000;
+  --foreground: #ffffff;
 }
 
 @theme inline {
@@ -32,7 +48,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #000000;
-    --foreground: #ededed;
+    --foreground: #ffffff;
   }
 }
 

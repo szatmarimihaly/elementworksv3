@@ -7,6 +7,7 @@ import CtaButton from '@/components/Button/CtaButton';
 import CtaButtonBlack from '@/components/Button/CtaButtonBlack';
 import Partner from '@/components/Visual/Partner';
 import Paragraph from '@/components/Paragraph/Paragraph';
+import Main from '@/components/Card/Main';
 
 type Locale = (typeof routing.locales)[number];
 
@@ -43,14 +44,22 @@ export default async function Page({ params }: { params: { locale: Locale } }) {
         <CtaButtonBlack href={`${locale}/kapcsolat`} text={t('Button.ctaContact')} />
       </section>
 
-      <section className="mt-20 flex justify-center">
+      <section className="section-top flex justify-center">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 place-items-center">
           <Partner />
         </div>
       </section>
 
-      <section>
+      <section className='section-top'>
         <Paragraph text={t('MainText.sectionOne')} />
+      </section>
+
+      <section className='section-top'>
+        <Main locale={locale} navigateMessage='navigateMessage' />
+      </section>
+
+      <section className='section-top'>
+
       </section>
 
     </main>
