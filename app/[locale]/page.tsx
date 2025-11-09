@@ -17,11 +17,19 @@ export const metadata: Metadata = {
   keywords : ['egyedi weboldal készítés', 'céges weboldal fejlesztés', 'webfejlesztési szolgáltatás', 'webshop készítés'],
   openGraph : {
     title : 'Céges weboldal fejlesztés',
-    description : 'Egy céges weboldal fejlesztés az ügyfélszerzés egyik legfontosabb eszköze. Megmutatja, mennyire profi a céged, és mennyire bízol a saját márkádban. Mi olyan üzleti weboldalakat fejlesztünk, amelyek nemcsak jól néznek ki, hanem konverziót is hoznak.',
+    description : 'Egy céges weboldal fejlesztés az ügyfélszerzés egyik legfontosabb eszköze. Mi olyan üzleti weboldalakat fejlesztünk, amelyek nemcsak jól néznek ki, hanem konverziót is hoznak.',
     url : 'https://www.elementworks.eu/hu',
     siteName : 'Elementworks',
     locale : 'hu_HU',
     type : 'website'
+  },
+  alternates : {
+    canonical: 'https://www.elementworks.eu/hu',
+    languages: {
+      'hu': 'https://www.elementworks.eu/hu',
+      'en': 'https://www.elementworks.eu/en',
+      'x-default': 'https://www.elementworks.eu/hu'
+    }
   },
   robots : {
     index : true,
