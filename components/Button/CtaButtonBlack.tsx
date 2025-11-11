@@ -11,7 +11,7 @@ const CtaButtonBlack = ({ href, text } : Props) => {
   return (
     <Link
         href={href}
-        className='text-center cta-button gap-2 text-white border-2 border-gray-500/50 hover:border-gray-400/50'
+        className='text-center cta-button gap-2 border-2 border-gray-400/40 hover:border-gray-200/70 gray-back'
     >
         {text}<ArrowRightAltIcon sx={{ fontSize : 24 }} />
     </Link>

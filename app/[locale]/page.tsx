@@ -8,6 +8,7 @@ import CtaButtonBlack from '@/components/Button/CtaButtonBlack';
 import Partner from '@/components/Visual/Partner';
 import Paragraph from '@/components/Paragraph/Paragraph';
 import Main from '@/components/Card/Main';
+import Online from '@/components/Visual/Online';
 
 type Locale = (typeof routing.locales)[number];
 
@@ -67,13 +68,20 @@ export default async function Page({ params }: { params: { locale: Locale } }) {
       </section>
 
       <section className='section-top'>
-        <Main locale={locale} navigateMessage='navigateMessage' />
+        <Main locale={locale} />
       </section>
 
       <section className='section-top'>
-
+        <Paragraph text={t('MainText.sectionTwo')}/>
       </section>
 
+      <section className='section-top'>
+        <Online locale={locale} text='mainservice'/>
+      </section>
+
+      <section className='section-top'>
+        <Paragraph text={t('MainText.sectionThree')}/>
+      </section>
     </main>
   );
 }

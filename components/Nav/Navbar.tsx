@@ -42,7 +42,7 @@ const Navbar = ({ locale } : Props) => {
     }
 
   return (
-    <nav className='mx-4 mt-6 lg:mt-4 lg:mx-4'>
+    <nav className='main-comp'>
         <div className={`flex flex-col ${isOpen ? 'pb-4' : ''}`}>
             <div className='flex justify-between items-center'>
                 <Image
@@ -100,6 +100,8 @@ const Navbar = ({ locale } : Props) => {
                         <Link href={`/${locale}/kapcsolat`} onClick={() => setIsOpen(false)} className={getLinkClass("/kapcsolat")}>
                             {t('contact')}
                         </Link>
+
+                        <LanguageSwitcher />
                     </div>
                 )}
 

@@ -13,8 +13,7 @@ interface MainCard {
 }
 
 type Props = {
-    locale : string,
-    navigateMessage : string
+    locale : string
 }
 
 const iconMap: Record<string, React.ElementType> = {
@@ -23,7 +22,7 @@ const iconMap: Record<string, React.ElementType> = {
     safe: SafetyCheckIcon
 }
 
-const Main = async ({ locale, navigateMessage} : Props) => {
+const Main = async ({ locale} : Props) => {
 
     const t = await getTranslations({ locale });
 
@@ -40,7 +39,7 @@ const Main = async ({ locale, navigateMessage} : Props) => {
             return(
             <article
                 key={item.id}
-                className='flex flex-col gap-6 border-2 border-gray-400/40 px-4 py-10 rounded-xl animate-thing hover:border-gray-200/70'
+                className='flex flex-col gap-6 border-2 border-gray-400/40 hover:border-gray-200/70 px-4 py-10 rounded-xl animate-thing border-gray gray-back'
             >
                 <div className='p-2 bg-white rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto'>
                     {IconComponent && <IconComponent sx={{ fontSize : 50, color : 'black' }} />}
@@ -48,8 +47,6 @@ const Main = async ({ locale, navigateMessage} : Props) => {
                 <h3 className='card-title'>{item.title}</h3>
                 <p className='card-subtitle'>{item.subtitle}</p>
                 <ToServices href={`/${locale}/szolgaltatasok`} toText={`${buttonText}`}/>
-
-
             </article>
         )})}
 

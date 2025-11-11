@@ -6,6 +6,24 @@
     "blog" : "Blog"
   },
 
+  "Footer" : {
+    "copyright" : "© 2025 Elementworks. Minden jog fenntartva.",
+
+    "cat1" : "Oldalak",
+    "cat2" : "Támogatás",
+    "cat3" : "Közösség",
+
+    "page1" : "FŐOLDAL",
+    "page2" : "SZOLGÁLTATÁSOK",
+    "page3" : "BLOG",
+    "page4" : "KAPCSOLAT",
+    "page5" : "ADATVÉDELMI TÁJÉKOZTATÓ",
+    "page6" : "SEGÍTSÉG",
+    "page7" : "ELÉRHETŐSÉG",
+    "page8" : "GITHUB",
+    "page9" : "INSTAGRAM"
+  },
+
   "Hero" :{
     "title" : "Céges weboldal fejlesztés",
     "description" : "Egy céges weboldal fejlesztés az ügyfélszerzés egyik legfontosabb eszköze. Mi olyan üzleti weboldalakat fejlesztünk, amelyek nemcsak jól néznek ki, hanem konverziót is hoznak."
@@ -18,7 +36,9 @@
   },
 
   "MainText" : {
-    "sectionOne" : "A weboldal készítés alapja az online jelenlétnek manapság. Legyen szó egy egyszerű bemutatkozó oldalról, céges weboldalról vagy egy webshop fejlesztéséről. Webfejlesztési szolgáltatásaink segítenek abban, hogy weboldalad gyors, modern és célközönséged számára vonzó lehessen. Bízd ránk a céges weboldal fejlesztést és teremtsd meg a profi online arculatot velünk. Ha szeretnéd, hogy céged egyedi weboldal készítés révén kitűnjön a versenytársak közül, mi professzionális megoldást kínálunk."
+    "sectionOne" : "A weboldal készítés alapja az online jelenlétnek manapság. Legyen szó egy egyszerű bemutatkozó oldalról, céges weboldalról vagy egy webshop fejlesztéséről. Webfejlesztési szolgáltatásaink segítenek abban, hogy weboldalad gyors, modern és célközönséged számára vonzó lehessen. Bízd ránk a céges weboldal fejlesztést és teremtsd meg a profi online arculatot velünk. Ha szeretnéd, hogy céged egyedi weboldal készítés révén kitűnjön a versenytársak közül, mi professzionális megoldást kínálunk.",
+    "sectionTwo" : "Egy vállalkozás számára a céges weboldal fejlesztés kulcsfontosságú lépés az online jelenlét erősítéséhez. A jó céges weboldal nem csak „bemutatkozó oldal”, hanem stratégiai eszköz: bemutatja a vállalkozásodat, a szolgáltatásaidat, értékeidet és azt, hogy miben különbözöl. Fejlesztéskor gondoskodunk arról, hogy az oldal megbízhatóan működjön minden eszközön – mobilon, tableten és asztali gépen is –, és úgy legyen kialakítva, hogy a látók gyorsan megtalálják, amit keresnek. Emellett a céges weboldal fejlesztés során figyelembe vesszük azt is, hogy az oldal jövő-biztos legyen: könnyű legyen bővíteni, frissíteni, akár új tartalmakkal vagy funkciókkal.",
+    "sectionThree" : "A webfejlesztési szolgáltatás magába foglalja a tervezést, a fejlesztést, az indulást és a későbbi karbantartást is. Nem elegendő csak „elkészíteni” az oldalt – gondoskodni kell arról, hogy az működjön, fejlődjön, és válaszoljon a piac változásaira. Modern vállalkozásként azt kínáljuk, hogy a fejlesztési folyamatot átláthatóan, együttműködésben veled végezzük: meghatározzuk a célokat, választunk technológiát, elkészítjük a design-t és a funkciókat, majd gondoskodunk arról, hogy az oldal stabilan működjön a hosszú távon is. A webfejlesztési szolgáltatásnak része a teljes életciklus-kezelés, így nem csak a „projekt átadásig” vállalunk felelősséget, hanem egy folyamatos partnerséget is kínálunk." 
   },
 
   "maincard" : [
@@ -39,6 +59,33 @@
       "title": "Modern technológiák",
       "subtitle": "Next.js és React alapú fejlesztésekkel dolgozunk, hogy weboldalad modern, gyors és jövőbiztos legyen.",
       "icon" : "safe"
+    }
+  ],
+
+  "mainservice" : [
+    {
+      "id" : 1,
+      "title" : "Megbízható első benyomást kelt a potenciális ügyfelekben"
+    },
+    {
+      "id" : 2,
+      "title" : "Erősíti a márka hitelességét és professzionális megjelenését"
+    },
+    {
+      "id" : 3,
+      "title" : "Gyors és stabil működés, hogy az oldal minden helyzetben jól teljesítsen"
+    },
+    {
+      "id" : 4,
+      "title" : "Mobilbarát kialakítás, amely minden eszközön tökéletesen működik"
+    },
+    {
+      "id" : 5,
+      "title" : "Egyszerűen frissíthető és bővíthető a tartalom"
+    },
+    {
+      "id" : 6,
+      "title" : "Egyedi, vállalatra szabott megoldások, nem sablonos weboldalak"
     }
   ]
 }

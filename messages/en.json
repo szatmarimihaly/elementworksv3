@@ -6,6 +6,24 @@
     "blog" : "Blog"
   },
 
+  "Footer" : {
+    "copyright" : "© 2025 ElementWorks. All rights reserved.",
+
+    "cat1" : "Sites",
+    "cat2" : "Support",
+    "cat3" : "Community",
+
+    "page1" : "HOME",
+    "page2" : "SERVICES",
+    "page3" : "BLOG",
+    "page4" : "CONTACT",
+    "page5" : "PRIVACY POLICY",
+    "page6": "HELP",
+    "page7": "CONTACT",
+    "page8": "GITHUB",
+    "page9": "INSTAGRAM"
+  },
+
   "Hero" : {
     "title" : "Corporate Website Development",
     "description" : "Corporate website development is one of the most powerful tools for acquiring new clients. We develop business websites that not only look great but also drive real conversions."
@@ -18,7 +36,9 @@
   },
 
   "MainText" : {
-    "sectionOne" : "The foundation of a strong online presence today is website development. Whether it’s a simple landing page, a corporate website, or an e-commerce store, our web development services help ensure that your website is fast, modern, and appealing to your target audience. Entrust us with your corporate website development and create a professional online image with us. If you want your company to stand out from the competition through custom website development, we offer professional solutions."
+    "sectionOne" : "The foundation of a strong online presence today is website development. Whether it’s a simple landing page, a corporate website, or an e-commerce store, our web development services help ensure that your website is fast, modern, and appealing to your target audience. Entrust us with your corporate website development and create a professional online image with us. If you want your company to stand out from the competition through custom website development, we offer professional solutions.",
+    "sectionTwo" : "For a business, corporate website development is a key step in strengthening its online presence. A good corporate website is not just a “presentation page” but a strategic tool: it introduces your company, your services, your values, and what makes you different. During development, we ensure that the website works reliably on all devices — mobile, tablet, and desktop — and that it is designed so visitors can quickly find what they are looking for. In addition, during corporate website development, we also make sure the site is future-proof: easy to expand and update with new content or features.",
+    "sectionThree" : "Web development services include planning, development, launch, and ongoing maintenance. It’s not enough to simply “build” the site — it needs to work, evolve, and adapt to market changes. As a modern company, we offer a transparent, collaborative development process: we define goals, choose the right technology, create the design and functionality, and ensure the site remains stable in the long term. Our web development services cover the full lifecycle, meaning we take responsibility not only until project delivery but also offer a continuous partnership for your business." 
   },
 
   "maincard" : [
@@ -39,6 +59,33 @@
       "title": "Modern Technologies",
       "subtitle": "We use Next.js and React to build modern, fast, and future-proof websites.",
       "icon" : "safe"
+    }
+  ],
+
+  "mainservice" : [
+    {
+      "id" : 1,
+      "title" : "Creates a reliable first impression for potential clients"
+    },
+    {
+      "id" : 2,
+      "title" : "Strengthens your brand’s credibility and professional appearance"
+    },
+    {
+      "id" : 3,
+      "title" : "Fast and stable performance to ensure smooth operation in every situation"
+    },
+    {
+      "id" : 4,
+      "title" : "Mobile-friendly design that looks perfect on all devices"
+    },
+    {
+      "id" : 5,
+      "title" : "Simple content updates and expansions"
+    },
+    {
+      "id" : 6,
+      "title" : "Tailor-made solutions for your business, not template-based websites"
     }
   ]
 }

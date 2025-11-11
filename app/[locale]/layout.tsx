@@ -6,6 +6,8 @@ import { Geist } from "next/font/google"
 import '../globals.css'
 import Navbar from '@/components/Nav/Navbar'
 import { BackgroundGlow } from '@/components/background/GlowEffect'
+import Footer from '@/components/Nav/Footer'
+import Copyright from '@/components/Nav/Copyright'
 
 const geist = Geist({ 
   subsets: ['latin']
@@ -31,7 +33,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={geist.className}>
-      <body>
+      <body className='flex flex-col min-h-screen'>
         <NextIntlClientProvider locale={locale as Locale} messages={messages}>
 
           <BackgroundGlow/>
@@ -43,6 +45,11 @@ export default async function LocaleLayout({
           <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4 lg:mt-10'>
             {children}
           </div>
+
+          <footer className='mt-20'>
+            <Footer locale={locale}/>
+            <Copyright locale={locale}/>
+          </footer>
 
 
         </NextIntlClientProvider>
