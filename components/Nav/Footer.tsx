@@ -22,6 +22,7 @@ const Footer = ({ locale } : Props) => {
             width={200}
             height={200}
             priority
+            className='mb-10 lg:mb-0'
             />
 
             <div className='footer-item'>

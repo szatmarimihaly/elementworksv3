@@ -15,7 +15,7 @@ type Locale = (typeof routing.locales)[number];
 export const metadata: Metadata = {
   title : 'Céges weboldal fejlesztés',
   description : 'Egy céges weboldal fejlesztés az ügyfélszerzés egyik legfontosabb eszköze. Megmutatja, mennyire profi a céged, és mennyire bízol a saját márkádban. Mi olyan üzleti weboldalakat fejlesztünk, amelyek nemcsak jól néznek ki, hanem konverziót is hoznak.',
-  keywords : ['egyedi weboldal készítés', 'céges weboldal fejlesztés', 'webfejlesztési szolgáltatás', 'webshop készítés'],
+  keywords : ['céges weboldal fejlesztés', 'weboldal fejlesztés', 'weboldal', 'weboldal készítés'],
   openGraph : {
     title : 'Céges weboldal fejlesztés',
     description : 'Egy céges weboldal fejlesztés az ügyfélszerzés egyik legfontosabb eszköze. Mi olyan üzleti weboldalakat fejlesztünk, amelyek nemcsak jól néznek ki, hanem konverziót is hoznak.',
@@ -48,7 +48,7 @@ export default async function Page({ params }: { params: { locale: Locale } }) {
 
   return (
     <main className='flex flex-col items-center'>
-      <section className='mt-30 flex flex-col gap-8'>
+      <section className='hero-prop'>
         <Hero title={t('Hero.title')} description={t('Hero.description')} />
       </section>
 
@@ -63,12 +63,10 @@ export default async function Page({ params }: { params: { locale: Locale } }) {
         </div>
       </section>
 
-      <section className='section-top'>
-        <Paragraph text={t('MainText.sectionOne')} />
-      </section>
+      <Paragraph text={t('MainText.sectionOne')} />
 
       <section className='section-top'>
-        <Main locale={locale} />
+        <Main locale={locale} text='maincard' />
       </section>
 
       <section className='section-top'>
@@ -79,9 +77,7 @@ export default async function Page({ params }: { params: { locale: Locale } }) {
         <Online locale={locale} text='mainservice'/>
       </section>
 
-      <section className='section-top'>
-        <Paragraph text={t('MainText.sectionThree')}/>
-      </section>
+      <Paragraph text={t('MainText.sectionThree')}/>
     </main>
   );
 }

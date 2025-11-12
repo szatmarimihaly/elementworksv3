@@ -14,6 +14,7 @@ interface MainCard {
 
 type Props = {
     locale : string
+    text : string
 }
 
 const iconMap: Record<string, React.ElementType> = {
@@ -22,11 +23,11 @@ const iconMap: Record<string, React.ElementType> = {
     safe: SafetyCheckIcon
 }
 
-const Main = async ({ locale} : Props) => {
+const Main = async ({ locale, text} : Props) => {
 
     const t = await getTranslations({ locale });
 
-    const maintext = t.raw('maincard') as MainCard[]
+    const maintext = t.raw(text) as MainCard[]
     const buttonText = t.raw('Button.ctaToServices')
 
   return (
@@ -44,7 +45,7 @@ const Main = async ({ locale} : Props) => {
                 <div className='p-2 bg-white rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto'>
                     {IconComponent && <IconComponent sx={{ fontSize : 50, color : 'black' }} />}
                 </div>
-                <h3 className='card-title'>{item.title}</h3>
+                <h2 className='card-title'>{item.title}</h2>
                 <p className='card-subtitle'>{item.subtitle}</p>
                 <ToServices href={`/${locale}/szolgaltatasok`} toText={`${buttonText}`}/>
             </article>

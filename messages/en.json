@@ -26,39 +26,114 @@
 
   "Hero" : {
     "title" : "Corporate Website Development",
-    "description" : "Corporate website development is one of the most powerful tools for acquiring new clients. We develop business websites that not only look great but also drive real conversions."
+    "description" : "In the digital era, a professional corporate website is not just an option—it is a business necessity. A well-designed website serves as the digital business card of your company, working around the clock to support your success.",
+
+    "serviceTitle": "Custom Website Development",
+    "serviceDescription": "If you want a professional online presence for your business, our corporate website development service is the ideal choice. A successful custom website development is a structured process that consists of several key stages. Let’s take a closer look at each of them."
   },
 
   "Button" : {
     "ctaText" : "Services",
     "ctaContact" : "Contact",
-    "ctaToServices" : "Read More"
+    "ctaToServices" : "Read More",
+    "ctaServices" : "Free Consultation"
   },
 
   "MainText" : {
-    "sectionOne" : "The foundation of a strong online presence today is website development. Whether it’s a simple landing page, a corporate website, or an e-commerce store, our web development services help ensure that your website is fast, modern, and appealing to your target audience. Entrust us with your corporate website development and create a professional online image with us. If you want your company to stand out from the competition through custom website development, we offer professional solutions.",
+    "sectionOne" : "Developing a company website is a strategic investment that can significantly contribute to the success of your business. Throughout the process, it is essential to keep in mind your business objectives, target audience needs, and modern web trends. A combination of professional design, user-friendly structure, and technical optimization ensures that your website performs effectively.",
     "sectionTwo" : "For a business, corporate website development is a key step in strengthening its online presence. A good corporate website is not just a “presentation page” but a strategic tool: it introduces your company, your services, your values, and what makes you different. During development, we ensure that the website works reliably on all devices — mobile, tablet, and desktop — and that it is designed so visitors can quickly find what they are looking for. In addition, during corporate website development, we also make sure the site is future-proof: easy to expand and update with new content or features.",
-    "sectionThree" : "Web development services include planning, development, launch, and ongoing maintenance. It’s not enough to simply “build” the site — it needs to work, evolve, and adapt to market changes. As a modern company, we offer a transparent, collaborative development process: we define goals, choose the right technology, create the design and functionality, and ensure the site remains stable in the long term. Our web development services cover the full lifecycle, meaning we take responsibility not only until project delivery but also offer a continuous partnership for your business." 
+    "sectionThree" : "While today there are many DIY tools available for building websites, creating a truly effective, business-oriented website requires expertise and experience. Working with professionals not only saves time and resources but also guarantees that the final result meets your expectations in every respect." 
+  },
+
+  "ServiceText" : {
+    "sectionOne" : "In today’s digital world, a company’s online presence is crucial to its success. Custom website development is not merely an expense — it’s an investment in your business’s future. A professionally designed, custom website helps you stand out from competitors, attract potential clients, and increase revenue. In this comprehensive guide, you’ll discover the benefits of custom websites, the development process, and everything you need to know before starting this important project.",
+    "sectionTwo" : "Custom website development offers numerous advantages over template-based solutions. While templates may provide a quick and inexpensive option, custom development delivers a much higher return on investment in the long term. Custom websites are perfectly aligned with your business’s branding, needs, and goals. There’s no need to compromise on functionality or design—everything works exactly the way you want it to."
   },
 
   "maincard" : [
     {
       "id": 1,
-      "title": "Performance Focus",
-      "subtitle": "We develop fast, optimized, and reliable websites that deliver an exceptional user experience.",
+      "title": "Credibility and Trust",
+      "subtitle": "75% of customers judge a company’s reliability based on its website. A professional appearance inspires confidence and establishes credibility in the eyes of potential clients.",
       "icon" : "speed"
     },
     {
       "id": 2,
-      "title": "Full-Service Solution",
-      "subtitle": "From design to development and maintenance, we handle everything to ensure a transparent and efficient project.",
+      "title": "Constant Availability",
+      "subtitle": "A website is accessible 24 hours a day, seven days a week, allowing customers to learn about your services and products at any time—regardless of business hours.",
       "icon" : "tips"
     },
     {
       "id": 3,
-      "title": "Modern Technologies",
-      "subtitle": "We use Next.js and React to build modern, fast, and future-proof websites.",
+      "title": "Cost-Effective Marketing",
+      "subtitle": "Website development is a long-term investment that continually works for your business. Compared to traditional marketing channels, maintaining a website is significantly more cost-efficient.",
       "icon" : "safe"
+    }
+  ],
+
+  "servicecard" : [
+    {
+      "id": 1,
+      "title": "SPA Website",
+      "subtitle": "One‑Page Website Development – Simple one‑page websites for freelancers and companies. We apply our custom website development expertise so that your business can appear online swiftly and stylishly.",
+      "image" : "spa",
+      "imagedescription": "Freelancer one-page website developed with custom website development in mind."
+    },
+    {
+      "id": 2,
+      "title": "Corporate Website Development",
+      "subtitle": "Corporate Website Development – Full corporate websites with subpages and rich content, a comprehensive solution. Choose our corporate website design service if you seek a professional online presence and conversion‑oriented site.",
+      "image" : "company",
+      "imagedescription": "Corporate website with multiple subpages – corporate website design project in progress."
+    },
+    {
+      "id": 3,
+      "title": "Online Store Development",
+      "subtitle": "Online Store Development – We build modern e‑commerce platforms (e.g., with Supabase and Stripe integration). Through our online store development, you get a scalable and secure solution supporting product and inventory management.",
+      "image" : "ecom",
+      "imagedescription": "E-commerce store development with Stripe and Supabase integration – online store development phase."
+    },
+    {
+      "id" : 4,
+      "title" : "SaaS Project Development",
+      "subtitle" : "SaaS Project Development – We develop web solutions for startups and enterprises with AI integration and CRM functionalities. In this service, the website development cost is transparently structured.",
+      "image" : "saas",
+      "imagedescription": "SaaS project development – custom web application for startup with unique features."
+    },
+    {
+      "id": 5,
+      "title": "Custom Web Application Development",
+      "subtitle": "Custom Web Application Development – Tailor‑made web apps for startups and businesses with bespoke features. This service builds on the opportunities of corporate website design frameworks.",
+      "image" : "web",
+      "imagedescription": "Custom web application development – specialized web solution for a startup."
+    },
+    {
+      "id": 6,
+      "title": "Logo & Brand Identity Design",
+      "subtitle": "Logo & Brand Identity Design – Visual identity creation with logo, colors and style for businesses. A perfect complement to custom website development.",
+      "image" : "brand",
+      "imagedescription": "ogo & brand identity design – visual identity creation as part of website development."
+    },
+    {
+      "id": 7,
+      "title": "Web Development Training",
+      "subtitle": "Web Development Training – Training based on Next.js and React frameworks so you can be part of the modern website development world. Ask about the website development cost details related to training as well.",
+      "image" : "learn",
+      "imagedescription": "Web development training with Next.js and React – teaching website development skills."
+    },
+    {
+      "id" : 8,
+      "title" : "Hosting & Domain Setup",
+      "subtitle" : "Hosting & Domain Setup – Full service for hosting and domain setup, enabling immediate launch of your business presence right after custom website development.",
+      "image" : "storage",
+      "imagedescription": "Hosting & domain setup – following custom website development for live launch."
+    },
+    {
+      "id" : 9,
+      "title" : "Web Development Consultation",
+      "subtitle" : "Web Development Consultation – Hourly‑based consulting for any web‑related question, so your business can plan its website or online store wisely. Consult with us about custom website development!",
+      "image" : "consult",
+      "imagedescription": "Web development consultation – quote request and hourly advice on website development."
     }
   ],
 
