@@ -1,45 +1,83 @@
 // app/[locale]/page.tsx
-import { getTranslations } from 'next-intl/server';
-import { routing } from '@/i18n/routing';
-import { Metadata } from 'next';
-import Hero from '@/components/Hero/Hero';
-import CtaButton from '@/components/Button/CtaButton';
-import CtaButtonBlack from '@/components/Button/CtaButtonBlack';
-import Partner from '@/components/Visual/Partner';
-import Paragraph from '@/components/Paragraph/Paragraph';
-import Main from '@/components/Card/Main';
-import Online from '@/components/Visual/Online';
+import { getTranslations } from 'next-intl/server'
+import { routing } from '@/i18n/routing'
+import { Metadata } from 'next'
+import Hero from '@/components/Hero/Hero'
+import CtaButton from '@/components/Button/CtaButton'
+import CtaButtonBlack from '@/components/Button/CtaButtonBlack'
+import Partner from '@/components/Visual/Partner'
+import Paragraph from '@/components/Paragraph/Paragraph'
+import Main from '@/components/Card/Main'
+import Online from '@/components/Visual/Online'
+
+import { getOrganizationSchema, getWebsiteSchema } from '../lib/seo/schemas'
 
 type Locale = (typeof routing.locales)[number];
 
-export const metadata: Metadata = {
-  title : 'Céges weboldal fejlesztés',
-  description : 'Egy céges weboldal fejlesztés az ügyfélszerzés egyik legfontosabb eszköze. Megmutatja, mennyire profi a céged, és mennyire bízol a saját márkádban. Mi olyan üzleti weboldalakat fejlesztünk, amelyek nemcsak jól néznek ki, hanem konverziót is hoznak.',
-  keywords : ['céges weboldal fejlesztés', 'weboldal fejlesztés', 'weboldal', 'weboldal készítés'],
-  openGraph : {
-    title : 'Céges weboldal fejlesztés',
-    description : 'Egy céges weboldal fejlesztés az ügyfélszerzés egyik legfontosabb eszköze. Mi olyan üzleti weboldalakat fejlesztünk, amelyek nemcsak jól néznek ki, hanem konverziót is hoznak.',
-    url : 'https://www.elementworks.eu/hu',
-    siteName : 'Elementworks',
-    locale : 'hu_HU',
-    type : 'website'
-  },
-  alternates : {
-    canonical: 'https://www.elementworks.eu/hu',
-    languages: {
-      'hu': 'https://www.elementworks.eu/hu',
-      'en': 'https://www.elementworks.eu/en',
-      'x-default': 'https://www.elementworks.eu/hu'
-    }
-  },
-  robots : {
-    index : true,
-    follow : true,
-    googleBot: {
+type Props ={
+  params : { locale : string }  
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await Promise.resolve(params);
+
+  const title = locale === 'hu'
+    ? 'Céges weboldal fejlesztés | Elementworks'
+    : 'Corporate Website Development | Elementworks';
+    
+  const description = locale === 'hu'
+    ? 'Egy céges weboldal fejlesztés az ügyfélszerzés egyik legfontosabb eszköze. Mi olyan üzleti weboldalakat fejlesztünk, amelyek nemcsak jól néznek ki, hanem konverziót is hoznak.'
+    : 'A corporate website is one of the most powerful tools for attracting new clients. We develop business websites that not only look great, but also drive conversions and deliver measurable results.';
+
+  return {
+    title,
+    description,
+    
+    openGraph: {
+      title,
+      description,
+      url: `https://elementworksv3.vercel.app/${locale}`,
+      siteName: 'Elementworks',
+      locale: locale === 'hu' ? 'hu_HU' : 'en_US',
+      type: 'website',
+      images: [
+        {
+          url: 'https://elementworksv3.vercel.app/new2.png',
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+    },
+    
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['https://elementworksv3.vercel.app/new2.png'],
+    },
+    
+    alternates: {
+      canonical: `https://elementworksv3.vercel.app/${locale}/`,
+      languages: {
+        'hu': 'https://elementworksv3.vercel.app/hu/',
+        'en': 'https://elementworksv3.vercel.app/en/',
+        'x-default': 'https://elementworksv3.vercel.app/hu/',
+      },
+    },
+    
+    robots: {
       index: true,
       follow: true,
-    }
-  }
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
+  };
 }
 
 export default async function Page({ params }: { params: { locale: Locale } }) {
@@ -78,6 +116,21 @@ export default async function Page({ params }: { params: { locale: Locale } }) {
       </section>
 
       <Paragraph text={t('MainText.sectionThree')}/>
+
+
+      <script 
+        type='application/ld+json'
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(getOrganizationSchema()),
+        }}
+      />
+
+      <script 
+        type='application/ld+json'
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(getWebsiteSchema(locale)),
+        }}
+      />
     </main>
   );
 }

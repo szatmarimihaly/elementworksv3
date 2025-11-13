@@ -8,6 +8,7 @@ import Navbar from '@/components/Nav/Navbar'
 import { BackgroundGlow } from '@/components/background/GlowEffect'
 import Footer from '@/components/Nav/Footer'
 import Copyright from '@/components/Nav/Copyright'
+import { getOrganizationSchema, getWebsiteSchema } from '../lib/seo/schemas'
 
 const geist = Geist({ 
   subsets: ['latin']
@@ -50,8 +51,6 @@ export default async function LocaleLayout({
             <Footer locale={locale}/>
             <Copyright locale={locale}/>
           </footer>
-
-
         </NextIntlClientProvider>
       </body>
     </html>
