@@ -34,6 +34,25 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={geist.className}>
+      <head>
+        <title>{locale === 'hu' ? 'Céges weboldal fejlesztés | Elementworks' : 'Corporate Website Development | Elementworks'}</title>
+        <meta
+          name="description"
+          content={
+            locale === 'hu'
+              ? 'Céges weboldal fejlesztés az ügyfélszerzés egyik legfontosabb eszköze, olyan weboldalakat fejlesztünk amelyek konverziót is hoznak.'
+              : 'Corporate website is one of the most powerful tools for attracting new clients, we develop business websites that deliver measurable results.'
+          }
+        />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple/apple-touch-icon.png"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple/apple-touch-icon-180x180.png"/>
+        <link rel="apple-touch-icon" sizes="167x167" href="/apple/apple-touch-icon-167x167.png"/>
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple/apple-touch-icon-152x152.png"/>
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple/apple-touch-icon-120x120.png"/>
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple/apple-touch-icon-76x76.png"/>
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple/apple-touch-icon-57x57.png"/>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className='flex flex-col min-h-screen'>
         <NextIntlClientProvider locale={locale as Locale} messages={messages}>
 
