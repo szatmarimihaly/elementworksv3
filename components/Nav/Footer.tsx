@@ -18,7 +18,7 @@ const Footer = ({ locale } : Props) => {
         <div className='flex flex-col gap-4 items-center lg:flex-row lg:items-start lg:justify-between '>
             <Image
             src='/new2.png'
-            alt='Céges weboldal fejlesztés | ELEMENTWORKS'
+            alt='ELEMENTWORKS logó a láblécben – weboldal fejlesztő cég'
             width={200}
             height={200}
             priority

@@ -42,7 +42,8 @@
   "MainText" : {
     "sectionOne" : "A céges weboldal fejlesztés egy stratégiai befektetés, amely jelentősen hozzájárulhat vállalkozása sikeréhez. A folyamat során fontos szem előtt tartani az üzleti célokat, a célközönség igényeit és a modern webes trendeket. A professzionális megjelenés, a felhasználóbarát kialakítás és a technikai optimalizálás együttesen biztosítják a weboldal hatékonyságát.",
     "sectionTwo" : "Egy vállalkozás számára a céges weboldal fejlesztés kulcsfontosságú lépés az online jelenlét erősítéséhez. A jó céges weboldal nem csak „bemutatkozó oldal”, hanem stratégiai eszköz: bemutatja a vállalkozásodat, a szolgáltatásaidat, értékeidet és azt, hogy miben különbözöl. Fejlesztéskor gondoskodunk arról, hogy az oldal megbízhatóan működjön minden eszközön – mobilon, tableten és asztali gépen is –, és úgy legyen kialakítva, hogy a látók gyorsan megtalálják, amit keresnek. Emellett a céges weboldal fejlesztés során figyelembe vesszük azt is, hogy az oldal jövő-biztos legyen: könnyű legyen bővíteni, frissíteni, akár új tartalmakkal vagy funkciókkal.",
-    "sectionThree" : "Bár a weboldal készítés ma már számos DIY eszközzel is megvalósítható, a valóban hatékony, üzleti célokat szolgáló weboldal fejlesztése szakértelmet és tapasztalatot igényel. A szakemberekkel való együttműködés nemcsak időt és erőforrást takarít meg, de biztosítja, hogy a végeredmény minden szempontból megfeleljen az elvárásoknak." 
+    "sectionThree" : "Bár a weboldal készítés ma már számos DIY eszközzel is megvalósítható, a valóban hatékony, üzleti célokat szolgáló weboldal fejlesztése szakértelmet és tapasztalatot igényel. A szakemberekkel való együttműködés nemcsak időt és erőforrást takarít meg, de biztosítja, hogy a végeredmény minden szempontból megfeleljen az elvárásoknak.",
+    "sectionFour" : "Egy céges weboldal nem csupán egy online jelenlét, hanem a vállalkozás digitális képviselője, amely 24/7 dolgozik Önért. Egy jól megtervezett és kivitelezett weboldal jelentősen növelheti a vállalkozás hitelességét, láthatóságát és bevételeit. Ennek a legmagasabb minőséget képviseli a webfejlesztés területén. Ezek a weboldalak teljesen az Ön igényeire szabottak, egyedi dizájnnal és funkciókkal rendelkeznek, amelyek tökéletesen illeszkednek vállalkozása arculatához és céljaihoz."
   },
 
   "ServiceText" : {
@@ -68,6 +69,72 @@
       "title": "Költséghatékony marketing",
       "subtitle": "A weboldal fejlesztés hosszú távú befektetés, amely folyamatosan dolgozik a vállalkozásért. Összehasonlítva a hagyományos marketing csatornákkal, a weboldal fenntartása jóval költséghatékonyabb.",
       "icon" : "safe"
+    }
+  ],
+
+  "howcard" : [
+    {
+      "id" : 1,
+      "title" : "Referenciák és portfólió",
+      "subtitle" : "Nézze meg a korábbi munkákat, különös tekintettel az Ön iparágához hasonló projektekre."
+    },
+    {
+      "id" : 2,
+      "title" : "Tapasztalat és szaktudás",
+      "subtitle" : "Ellenőrizze, hogy a fejlesztő rendelkezik-e a szükséges technikai tudással és tapasztalattal."
+    },
+    {
+      "id" : 3,
+      "title" : "Kommunikáció és együttműködés",
+      "subtitle" : "Fontos, hogy a fejlesztő megértse az Ön igényeit és rendszeresen kommunikáljon a projekt során."
+    },
+    {
+      "id" : 4,
+      "title" : "Ár-érték arány",
+      "subtitle" : "Ne csak az árat nézze, hanem azt is, hogy mit kap a pénzéért. A legolcsóbb nem mindig a legjobb választás."
+    },
+    {
+      "id" : 5,
+      "title" : "Támogatás és karbantartás",
+      "subtitle" : "Kérdezzen rá, hogy a fejlesztő nyújt-e támogatást és karbantartást a weboldal átadása után."
+    },
+    {
+      "id" : 6,
+      "title" : "Határidők betartása",
+      "subtitle" : "Érdeklődjön a korábbi projektek időbeli teljesítéséről."
+    }
+  ],
+
+  "development" : [
+    {
+      "id" : 1,
+      "title" : "Igényfelmérés és tervezés",
+      "subtitle" : "Az első és talán legfontosabb lépés az igények pontos felmérése. Ebben a szakaszban meghatározzuk a weboldal célját, célközönségét, és a szükséges funkciókat. Elkészítjük az oldaltérképet, amely a weboldal szerkezetét és navigációját mutatja be."
+    },
+    {
+      "id" : 2,
+      "title" : "Grafikai tervezés (webdesign)",
+      "subtitle" : "A webdesign során alakul ki a weboldal vizuális megjelenése. Egyedi grafikai elemek, színek, tipográfia és elrendezés tervezése történik, amely illeszkedik a vállalkozás arculatához. A reszponzív weboldal tervezés biztosítja, hogy az oldal minden eszközön (számítógép, tablet, mobiltelefon) megfelelően jelenjen meg."
+    },
+    {
+      "id" : 3,
+      "title" : "Fejlesztés és programozás",
+      "subtitle" : "Ebben a szakaszban történik a weboldal tényleges elkészítése. A fejlesztők a grafikai tervek alapján programozzák le a weboldalt, implementálják a szükséges funkciókat, és kialakítják az adminisztrációs felületet, ha szükséges."
+    },
+    {
+      "id" : 4,
+      "title" : "Tartalom feltöltése",
+      "subtitle" : "A weboldal szerkezetének elkészítése után következik a tartalmak (szövegek, képek, videók) feltöltése. Fontos, hogy a tartalom minőségi, informatív és keresőoptimalizált legyen."
+    },
+    {
+      "id" : 5,
+      "title" : "Tesztelés és finomhangolás",
+      "subtitle" : "A fejlesztés befejezése után alapos tesztelés következik. Ellenőrizzük a weboldal működését különböző böngészőkben és eszközökön, teszteljük a funkciókat, és javítjuk az esetleges hibákat."
+    },
+    {
+      "id" : 6,
+      "title" : "Élesítés és átadás",
+      "subtitle" : "Az utolsó lépés a weboldal élesítése, vagyis a végleges domain névre és tárhelyre való feltöltése. Az átadás során a megrendelő megkapja a szükséges hozzáféréseket és dokumentációt."
     }
   ],
 
@@ -162,5 +229,14 @@
       "id" : 6,
       "title" : "Egyedi, vállalatra szabott megoldások, nem sablonos weboldalak"
     }
-  ]
+  ],
+
+  "SmallHero" : { 
+    "mainTitle" : "Hogyan válasszon megfelelő weboldal fejlesztőt vagy céget?", 
+    "mainSubtitle" : "A megfelelő webfejlesztő partner kiválasztása kulcsfontosságú az egyedi weboldal készítés sikeréhez. Íme néhány szempont, amelyet érdemes figyelembe venni a döntés során:",
+
+    "serviceTitle" : "Az egyedi weboldal készítés folyamata lépésről lépésre?"
+  }
+
+
 }

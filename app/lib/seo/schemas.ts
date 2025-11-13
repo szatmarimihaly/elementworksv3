@@ -178,7 +178,7 @@ export const getFAQSchema = (locale: Locale, faqs: { question: string; answer: s
   })),
 });
 
-export const getLocalBusinessSchema = (locale: Locale) => ({
+export const getLocalBusinessSchema = () => ({
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   'name': 'Elementworks',

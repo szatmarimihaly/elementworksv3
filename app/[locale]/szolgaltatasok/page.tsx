@@ -6,6 +6,9 @@ import CtaButton from '@/components/Button/CtaButton'
 import Paragraph from '@/components/Paragraph/Paragraph'
 import ServiceImage from '@/components/Card/ServiceImage'
 import { getServiceSchema, getOrganizationSchema } from '@/app/lib/seo/schemas'
+import SubHero from '@/components/Hero/SubHero'
+import Number from '@/components/Card/Number'
+
 
 type Params = {
   params : {
@@ -103,6 +106,11 @@ export default async function Page({ params } : Params){
       </section>
 
       <Paragraph text={t('ServiceText.sectionTwo')}/>
+
+      <section>
+        <SubHero text={t('SmallHero.serviceTitle')}/>
+        <Number locale={locale} text='development'/>
+      </section>
 
       <script 
         type='application/ld+json'

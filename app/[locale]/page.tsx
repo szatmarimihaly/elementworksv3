@@ -9,8 +9,11 @@ import Partner from '@/components/Visual/Partner'
 import Paragraph from '@/components/Paragraph/Paragraph'
 import Main from '@/components/Card/Main'
 import Online from '@/components/Visual/Online'
+import SubHero from '@/components/Hero/SubHero'
 
 import { getOrganizationSchema, getWebsiteSchema } from '../lib/seo/schemas'
+import Number from '@/components/Card/Number'
+
 
 type Locale = (typeof routing.locales)[number];
 
@@ -107,9 +110,7 @@ export default async function Page({ params }: { params: { locale: Locale } }) {
         <Main locale={locale} text='maincard' />
       </section>
 
-      <section className='section-top'>
-        <Paragraph text={t('MainText.sectionTwo')}/>
-      </section>
+      <Paragraph text={t('MainText.sectionTwo')}/>
 
       <section className='section-top'>
         <Online locale={locale} text='mainservice'/>
@@ -117,7 +118,12 @@ export default async function Page({ params }: { params: { locale: Locale } }) {
 
       <Paragraph text={t('MainText.sectionThree')}/>
 
-      <h2>{t('')}</h2>
+      <section>
+        <SubHero text={t('SmallHero.mainTitle')}/>
+        <Number locale={locale} text="howcard"/>
+        <Paragraph text={t('MainText.sectionFour')}/>
+      </section>
+
 
 
       <script 

@@ -47,7 +47,7 @@ const Navbar = ({ locale } : Props) => {
             <div className='flex justify-between items-center'>
                 <Image
                     src="/new.png"
-                    alt='Céges weboldal fejlesztés | ELEMENTWORKS'
+                    alt='Elementworks logó - céges weboldal fejlesztés'
                     width={180}
                     height={100}
                     priority

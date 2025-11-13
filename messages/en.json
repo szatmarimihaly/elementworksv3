@@ -42,7 +42,8 @@
   "MainText" : {
     "sectionOne" : "Developing a company website is a strategic investment that can significantly contribute to the success of your business. Throughout the process, it is essential to keep in mind your business objectives, target audience needs, and modern web trends. A combination of professional design, user-friendly structure, and technical optimization ensures that your website performs effectively.",
     "sectionTwo" : "For a business, corporate website development is a key step in strengthening its online presence. A good corporate website is not just a “presentation page” but a strategic tool: it introduces your company, your services, your values, and what makes you different. During development, we ensure that the website works reliably on all devices — mobile, tablet, and desktop — and that it is designed so visitors can quickly find what they are looking for. In addition, during corporate website development, we also make sure the site is future-proof: easy to expand and update with new content or features.",
-    "sectionThree" : "While today there are many DIY tools available for building websites, creating a truly effective, business-oriented website requires expertise and experience. Working with professionals not only saves time and resources but also guarantees that the final result meets your expectations in every respect." 
+    "sectionThree" : "While today there are many DIY tools available for building websites, creating a truly effective, business-oriented website requires expertise and experience. Working with professionals not only saves time and resources but also guarantees that the final result meets your expectations in every respect.",
+    "sectionFour" : "Business website is not just an online presence, but the digital representative of your business, working for you 24/7. A well-designed and executed website can significantly enhance your business's credibility, visibility, and revenue. It represents the highest quality in the field of web development. These websites are fully tailored to your needs, featuring unique designs and functionalities that perfectly align with your business’s brand and goals."
   },
 
   "ServiceText" : {
@@ -68,6 +69,72 @@
       "title": "Cost-Effective Marketing",
       "subtitle": "Website development is a long-term investment that continually works for your business. Compared to traditional marketing channels, maintaining a website is significantly more cost-efficient.",
       "icon" : "safe"
+    }
+  ],
+
+  "howcard" : [
+    {
+      "id" : 1,
+      "title" : "References and Portfolio",
+      "subtitle" : "Review previous work, especially projects similar to your industry."
+    },
+    {
+      "id" : 2,
+      "title" : "Experience and Expertise",
+      "subtitle" : "Check whether the developer has the necessary technical knowledge and experience."
+    },
+    {
+      "id" : 3,
+      "title" : "Communication and Collaboration",
+      "subtitle" : "It is important that the developer understands your needs and communicates regularly throughout the project."
+    },
+    {
+      "id" : 4,
+      "title" : "Value for Money",
+      "subtitle" : "Don’t just look at the price, but also what you get for your money. The cheapest option isn’t always the best choice."
+    },
+    {
+      "id" : 5,
+      "title" : "Support and Maintenance",
+      "subtitle" : "Ask whether the developer provides support and maintenance after the website is delivered."
+    },
+    {
+      "id" : 6,
+      "title" : "Meeting Deadlines",
+      "subtitle" : "Inquire about the timely completion of previous projects."
+    }
+  ],
+
+  "development" : [
+    {
+      "id" : 1,
+      "title" : "Requirement Analysis and Planning",
+      "subtitle" : "The first and perhaps most important step is to accurately assess the requirements. In this phase, we define the website’s purpose, target audience, and necessary features. We also create a sitemap that outlines the website’s structure and navigation."
+    },
+    {
+      "id" : 2,
+      "title" : "Graphic Design (Web Design)",
+      "subtitle" : "During the web design phase, the visual appearance of the website is developed. Custom graphic elements, colors, typography, and layouts are designed to align with the company’s branding. Responsive web design ensures that the website displays correctly on all devices (desktop, tablet, mobile)."
+    },
+    {
+      "id" : 3,
+      "title" : "Development and Programming",
+      "subtitle" : "In this phase, the actual website is built. Developers program the website based on the graphic designs, implement the necessary functionalities, and set up the administrative interface if required."
+    },
+    {
+      "id" : 4,
+      "title" : "Content Upload",
+      "subtitle" : "After the website structure is ready, content such as texts, images, and videos is uploaded. It is important that the content is high-quality, informative, and SEO-optimized."
+    },
+    {
+      "id" : 5,
+      "title" : "Testing and Fine-Tuning",
+      "subtitle" : "After development, thorough testing is conducted. The website’s functionality is checked across different browsers and devices, features are tested, and any issues are corrected."
+    },
+    {
+      "id" : 6,
+      "title" : "Launch and Handover",
+      "subtitle" : "The final step is launching the website by uploading it to the live domain and hosting server. During the handover, the client receives all necessary access credentials and documentation."
     }
   ],
 
@@ -162,5 +229,12 @@
       "id" : 6,
       "title" : "Tailor-made solutions for your business, not template-based websites"
     }
-  ]
+  ],
+
+  "SmallHero": {
+    "mainTitle": "How to Choose the Right Website Developer or Company?",
+    "mainSubtitle": "Choosing the right web development partner is crucial for the success of a custom website. Here are some factors to consider when making your decision:",
+
+    "serviceTitle" : "The Step-by-Step Process of Custom Website Development?"
+  }
 }

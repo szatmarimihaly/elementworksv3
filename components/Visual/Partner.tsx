@@ -9,7 +9,7 @@ const Partner = () => {
             <Image 
                 key={item.id}
                 src={`/partner/${item.image}.svg`}
-                alt=''
+                alt={`${item.alt}`}
                 width={150}
                 height={100}
             />

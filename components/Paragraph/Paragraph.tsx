@@ -6,7 +6,7 @@ type Props = {
 
 const Paragraph = ({ text } : Props) => {
   return (
-    <p className='text-justify text-xl text-gray-300 section-top'>{text}</p>
+    <p className='text-justify text-xl text-gray-300 section-top leading-loose'>{text}</p>
   )
 }
 

@@ -8,48 +8,48 @@ export const partner : partnerImage[] =[
     {
         id : '1',
         image : 'supabase',
-        alt : 'Egyedi weboldal készítés'
+        alt : 'Céges weboldal fejlesztés Supabase adatbázissal'
     },
 
     {
         id : '2',
         image : 'nextjs',
-        alt : 'Egyedi weboldal készítés'
+        alt : 'Céges weboldal fejlesztés Next.js keretrendszerrel'
     },
 
     {
         id : '3',
         image : 'vercel',
-        alt : 'Céges weboldal fejlesztés'
+        alt : 'Céges weboldal fejlesztés Vercel CI/CD pipeline segítségével'
     },
 
     {
         id : '4',
         image : 'turbopack',
-        alt : 'Céges weboldal fejlesztés'
+        alt : 'Céges weboldal fejlesztés Next.js keretrendszerrel és Turbopack optimalizálással'
     },
 
     {
         id : '5',
         image : 'n8n',
-        alt : 'Webfejlesztési szolgáltatás'
+        alt : 'Céges weboldal fejlesztés n8n automatizációk használatával'
     },
 
     {
         id : '6',
         image : 'appwrite',
-        alt : 'Webfejlesztési szolgáltatás'
+        alt : 'Céges weboldal fejlesztés Appwrite adatbázissal'
     },
 
     {
         id : '7',
         image : 'astro',
-        alt : 'Webshop készítés'
+        alt : 'Céges weboldal fejlesztés Astro keretrendszerrel'
     },
 
     {
         id : '8',
         image : 'docker',
-        alt : 'Webshop készítés'
+        alt : 'Céges weboldal fejlesztés docker használatával'
     }
 ]
