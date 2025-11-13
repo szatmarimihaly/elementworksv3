@@ -26,8 +26,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     : 'Corporate Website Development | Elementworks';
     
   const description = locale === 'hu'
-    ? 'Egy céges weboldal fejlesztés az ügyfélszerzés egyik legfontosabb eszköze. Mi olyan üzleti weboldalakat fejlesztünk, amelyek nemcsak jól néznek ki, hanem konverziót is hoznak.'
-    : 'A corporate website is one of the most powerful tools for attracting new clients. We develop business websites that not only look great, but also drive conversions and deliver measurable results.';
+    ? 'Céges weboldal fejlesztés az ügyfélszerzés egyik legfontosabb eszköze, olyan weboldalakat fejlesztünk amelyek konverziót is hoznak.'
+    : 'Corporate website is one of the most powerful tools for attracting new clients, we develop business websites that deliver measurable results.';
 
   return {
     title,
@@ -116,6 +116,8 @@ export default async function Page({ params }: { params: { locale: Locale } }) {
       </section>
 
       <Paragraph text={t('MainText.sectionThree')}/>
+
+      <h2>{t('')}</h2>
 
 
       <script 

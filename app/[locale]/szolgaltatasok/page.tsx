@@ -25,8 +25,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     : 'Custom Website Development and E-commerce Solutions | Elementworks';
     
   const description = locale === 'hu'
-    ? 'Professzionális egyedi weboldal készítés, céges weboldal fejlesztés és webshop fejlesztés egy helyen. Kérje árajánlatunkat weboldal készítésre.'
-    : 'Professional custom website development, business website creation, and e-commerce solutions in one place. Request a quote for website development.';
+    ? 'Egyedi weboldal készítés, céges weboldal fejlesztés és webshop fejlesztés egy helyen. Kérje árajánlatunkat weboldal készítésre.'
+    : 'Custom website development, business website creation, and e-commerce solutions in one place. Request a quote for website development.';
 
   return {
     title,
