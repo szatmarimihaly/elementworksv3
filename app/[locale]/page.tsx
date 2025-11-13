@@ -22,8 +22,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await Promise.resolve(params);
 
   const title = locale === 'hu'
-    ? 'Céges weboldal fejlesztés | Elementworks'
-    : 'Corporate Website Development | Elementworks';
+    ? 'Céges weboldal fejlesztés | ELEMENTWORKS'
+    : 'Corporate Website Development | ELEMENTWORKS';
     
   const description = locale === 'hu'
     ? 'Céges weboldal fejlesztés az ügyfélszerzés egyik legfontosabb eszköze, olyan weboldalakat fejlesztünk amelyek konverziót is hoznak.'

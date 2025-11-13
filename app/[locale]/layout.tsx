@@ -8,7 +8,8 @@ import Navbar from '@/components/Nav/Navbar'
 import { BackgroundGlow } from '@/components/background/GlowEffect'
 import Footer from '@/components/Nav/Footer'
 import Copyright from '@/components/Nav/Copyright'
-import { getOrganizationSchema, getWebsiteSchema } from '../lib/seo/schemas'
+import { Analytics } from '@vercel/analytics/next'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const geist = Geist({ 
   subsets: ['latin']
@@ -35,15 +36,6 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={geist.className}>
       <head>
-        <title>{locale === 'hu' ? 'Céges weboldal fejlesztés | Elementworks' : 'Corporate Website Development | Elementworks'}</title>
-        <meta
-          name="description"
-          content={
-            locale === 'hu'
-              ? 'Céges weboldal fejlesztés az ügyfélszerzés egyik legfontosabb eszköze, olyan weboldalakat fejlesztünk amelyek konverziót is hoznak.'
-              : 'Corporate website is one of the most powerful tools for attracting new clients, we develop business websites that deliver measurable results.'
-          }
-        />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple/apple-touch-icon.png"/>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple/apple-touch-icon-180x180.png"/>
         <link rel="apple-touch-icon" sizes="167x167" href="/apple/apple-touch-icon-167x167.png"/>
@@ -71,6 +63,8 @@ export default async function LocaleLayout({
             <Copyright locale={locale}/>
           </footer>
         </NextIntlClientProvider>
+        <Analytics/>
+        <SpeedInsights/>
       </body>
     </html>
   );
