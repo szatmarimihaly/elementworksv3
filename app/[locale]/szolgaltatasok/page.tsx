@@ -65,9 +65,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: `https://elementworksv3.vercel.app/${locale}/szolgaltatasok`,
       languages: {
-        'hu': 'https://elementworksv3.vercel.app/hu//szolgaltatasok',
-        'en': 'https://elementworksv3.vercel.app/en//szolgaltatasok',
-        'x-default': 'https://elementworksv3.vercel.app/hu//szolgaltatasok',
+        'hu': 'https://elementworksv3.vercel.app/hu/szolgaltatasok',
+        'en': 'https://elementworksv3.vercel.app/en/szolgaltatasok',
+        'x-default': 'https://elementworksv3.vercel.app/hu/szolgaltatasok',
       },
     },
     
