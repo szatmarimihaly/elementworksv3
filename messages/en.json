@@ -235,6 +235,25 @@
     "mainTitle": "How to Choose the Right Website Developer or Company?",
     "mainSubtitle": "Choosing the right web development partner is crucial for the success of a custom website. Here are some factors to consider when making your decision:",
 
-    "serviceTitle" : "The Step-by-Step Process of Custom Website Development?"
+    "serviceTitle" : "The Step-by-Step Process of Custom Website Development?",
+    "serviceImage" : "Public References"
+  },
+
+  "CtaForm" : {
+    "firstTitle" : "Ready for your custom website?",
+    "firstSubtitle" : "Request a free consultation and a personalized offer today!",
+    "firstButton" : "Request a Quote",
+
+    "secondTitle" : "Want an accurate price estimate?",
+    "secondSubtitle" : "Get in touch with us and we’ll prepare a tailored offer based on your needs!",
+    "secondButton" : "Request a Free Quote",
+
+    "thirdTitle" : "Join our satisfied clients!",
+    "thirdSubtitle" : "Request a free consultation and quote now, and start your journey toward a fully custom website!",
+    "thirdButton" : "Get in Touch",
+
+    "fourthTitle" : "Ready for the next step?",
+    "fourthSubtitle" : "Request a free consultation and quote today, and begin the custom website development process!",
+    "fourthButton" : "Request a Free Estimate"
   }
 }

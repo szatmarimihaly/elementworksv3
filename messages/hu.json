@@ -235,7 +235,26 @@
     "mainTitle" : "Hogyan válasszon megfelelő weboldal fejlesztőt vagy céget?", 
     "mainSubtitle" : "A megfelelő webfejlesztő partner kiválasztása kulcsfontosságú az egyedi weboldal készítés sikeréhez. Íme néhány szempont, amelyet érdemes figyelembe venni a döntés során:",
 
-    "serviceTitle" : "Az egyedi weboldal készítés folyamata lépésről lépésre?"
+    "serviceTitle" : "Az egyedi weboldal készítés folyamata lépésről lépésre?",
+    "serviceImage" : "Nyilvános referenciák"
+  },
+
+  "CtaForm" : {
+    "firstTitle" : "Készen áll az egyedi weboldalára?",
+    "firstSubtitle" : "Kérjen ingyenes konzultációt és személyre szabott árajánlatot most!",
+    "firstButton" : "Ajánlatkérés",
+
+    "secondTitle" : "Szeretne pontos árajánlatot kapni?",
+    "secondSubtitle" : "Vegye fel velünk a kapcsolatot és készítünk egy személyre szabott ajánlatot az Ön igényei alapján!",
+    "secondButton" : "Ingyenes árajánlat kérése",
+
+    "thirdTitle" : "Csatlakozzon elégedett ügyfeleinkhez!",
+    "thirdSubtitle" : "Kérjen ingyenes konzultációt és árajánlatot most, és induljon el az egyedi weboldal készítés útján!",
+    "thirdButton" : "Kapcsolatfelvétel",
+
+    "fourthTitle" : "Készen áll a következő lépésre?",
+    "fourthSubtitle" : "Kérjen ingyenes konzultációt és árajánlatot most, és kezdje el az egyedi weboldal készítés folyamatát!",
+    "fourthButton" : "Ingyenes ajánlatkérés"
   }
 
 

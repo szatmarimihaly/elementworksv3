@@ -8,6 +8,9 @@ import ServiceImage from '@/components/Card/ServiceImage'
 import { getServiceSchema, getOrganizationSchema } from '@/app/lib/seo/schemas'
 import SubHero from '@/components/Hero/SubHero'
 import Number from '@/components/Card/Number'
+import Line from '@/components/Visual/Line'
+import References from '@/components/Fetch/References'
+import Cta from '@/components/Visual/Cta'
 
 
 type Params = {
@@ -85,7 +88,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function Page({ params } : Params){
 
-  const { locale } = params
+  const { locale } =  await params
   const t = await getTranslations({ locale })
 
   return (
@@ -109,8 +112,22 @@ export default async function Page({ params } : Params){
 
       <section>
         <SubHero text={t('SmallHero.serviceTitle')}/>
+        <Line />
         <Number locale={locale} text='development'/>
       </section>
+
+      <section>
+        <SubHero text={t('SmallHero.serviceImage')}/>
+        <Line />
+        <References />
+      </section>
+
+      <Cta
+        title={t('CtaForm.firstTitle')} 
+        subtitle={t('CtaForm.firstSubtitle')} 
+        button={t('CtaForm.firstButton')} 
+        href={`/${locale}/kapcsolat`}
+      />
 
       <script 
         type='application/ld+json'

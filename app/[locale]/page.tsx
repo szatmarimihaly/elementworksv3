@@ -13,6 +13,8 @@ import SubHero from '@/components/Hero/SubHero'
 
 import { getOrganizationSchema, getWebsiteSchema } from '../lib/seo/schemas'
 import Number from '@/components/Card/Number'
+import Line from '@/components/Visual/Line'
+import Cta from '@/components/Visual/Cta'
 
 
 type Locale = (typeof routing.locales)[number];
@@ -120,9 +122,17 @@ export default async function Page({ params }: { params: { locale: Locale } }) {
 
       <section>
         <SubHero text={t('SmallHero.mainTitle')}/>
+        <Line />
         <Number locale={locale} text="howcard"/>
         <Paragraph text={t('MainText.sectionFour')}/>
       </section>
+
+      <Cta
+        title={t('CtaForm.fourthTitle')} 
+        subtitle={t('CtaForm.fourthSubtitle')} 
+        button={t('CtaForm.fourthButton')} 
+        href={`/${locale}/kapcsolat`}
+      />
 
 
 

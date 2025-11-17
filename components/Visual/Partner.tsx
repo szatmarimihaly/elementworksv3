@@ -12,6 +12,7 @@ const Partner = () => {
                 alt={`${item.alt}`}
                 width={150}
                 height={100}
+                loading='lazy'
             />
         ))}
     </>

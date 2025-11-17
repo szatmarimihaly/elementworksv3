@@ -26,7 +26,7 @@ const Footer = ({ locale } : Props) => {
             />
 
             <div className='footer-item'>
-                <h3 className='footer-h3'>{t('cat1')}</h3>
+                <h4 className='footer-h3'>{t('cat1')}</h4>
                 <ul className='flex flex-col items-center footer-list gap-4'>
                     <Link href={`/${locale}`} className='item'>{t("page1")}</Link>
                     <Link href={`/${locale}/szolgaltatasok`} className='item'>{t("page2")}</Link>
@@ -36,7 +36,7 @@ const Footer = ({ locale } : Props) => {
             </div>
 
             <div className='footer-item'>
-                <h3 className='footer-h3'>{t('cat2')}</h3>
+                <h4 className='footer-h3'>{t('cat2')}</h4>
                 <ul className='flex flex-col items-center footer-list gap-4'>
                     <Link href={`/${locale}/adatvedelem`} className='item'>{t("page6")}</Link>
                     <Link href={`/${locale}/adatvedelem`} className='item'>{t("page5")}</Link>
@@ -45,7 +45,7 @@ const Footer = ({ locale } : Props) => {
             </div>
 
             <div className='footer-item'>
-                <h3 className='footer-h3'>{t('cat3')}</h3>
+                <h4 className='footer-h3'>{t('cat3')}</h4>
                 <ul className='flex flex-col items-center footer-list gap-4'>
                     <Link href={`https://github.com/szatmarimihaly`} className='item'>{t("page8")}</Link>
                     <Link href={`https://www.instagram.com/elementworksgroup/`} className='item'>{t("page9")}</Link>
