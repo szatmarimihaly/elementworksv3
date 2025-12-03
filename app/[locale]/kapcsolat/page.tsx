@@ -1,4 +1,7 @@
-import { Metadata } from "next";
+import Hero from "@/components/Hero/Hero"
+import ContactBox from "@/components/Visual/ContactBox"
+import { Metadata } from "next"
+import { getTranslations } from "next-intl/server"
 
 type Params = {
   params : { locale : string }
@@ -73,7 +76,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 
 export default async function Page({ params } : Params){
+
+  const { locale } = await params
+  const t = await getTranslations({ locale })
+
   return (
-    <div>Page</div>
+    <main>
+      <section className='hero-prop'>
+        <Hero title={t('Hero.contactTitle')} description={t('Hero.contactSubtitle')} />
+      </section>
+      
+      <ContactBox text={t('ContactText.call')}/>
+    </main>
   )
 }

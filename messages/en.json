@@ -3,7 +3,8 @@
     "home" : "Home",
     "services" : "Services",
     "contact" : "Contact",
-    "blog" : "Blog"
+    "blog" : "Blog",
+    "system" : "Systems"
   },
 
   "Footer" : {
@@ -29,14 +30,21 @@
     "description" : "In the digital era, a professional corporate website is not just an option—it is a business necessity. A well-designed website serves as the digital business card of your company, working around the clock to support your success.",
 
     "serviceTitle": "Custom Website Development",
-    "serviceDescription": "If you want a professional online presence for your business, our corporate website development service is the ideal choice. A successful custom website development is a structured process that consists of several key stages. Let’s take a closer look at each of them."
+    "serviceDescription": "If you want a professional online presence for your business, our corporate website development service is the ideal choice. A successful custom website development is a structured process that consists of several key stages. Let’s take a closer look at each of them.",
+
+    "contactTitle": "Intrested to work wit us?",
+    "contactSubtitle": "Choose fast and direct communication! Our experts are ready to assist you with any web development–related questions.",
+
+    "systemTitle" : "Corporate System Development and Automation",
+    "systemDescription" : "Digitizing and automating manual processes significantly increases efficiency — and that’s exactly where we can help."
   },
 
   "Button" : {
     "ctaText" : "Services",
     "ctaContact" : "Contact",
     "ctaToServices" : "Read More",
-    "ctaServices" : "Free Consultation"
+    "ctaServices" : "Free Consultation",
+    "ctaSystem" : "Let's Automate Together!"
   },
 
   "MainText" : {
@@ -49,6 +57,18 @@
   "ServiceText" : {
     "sectionOne" : "In today’s digital world, a company’s online presence is crucial to its success. Custom website development is not merely an expense — it’s an investment in your business’s future. A professionally designed, custom website helps you stand out from competitors, attract potential clients, and increase revenue. In this comprehensive guide, you’ll discover the benefits of custom websites, the development process, and everything you need to know before starting this important project.",
     "sectionTwo" : "Custom website development offers numerous advantages over template-based solutions. While templates may provide a quick and inexpensive option, custom development delivers a much higher return on investment in the long term. Custom websites are perfectly aligned with your business’s branding, needs, and goals. There’s no need to compromise on functionality or design—everything works exactly the way you want it to."
+  },
+
+  "SystemText" : {
+    "sectionOne" : "In the modern corporate environment, the automation of internal systems is no longer a luxury — it is a fundamental necessity. Digitizing and automating manual processes significantly increases efficiency, reduces the likelihood of errors, and frees up valuable human resources for more creative and strategic tasks. You can play a crucial role in enhancing your company’s competitiveness by creating intelligent, automated internal systems.",
+    "sectionTwo" : "Automation enables companies to optimize internal workflows, boost productivity, and reduce operational costs. With well-designed internal systems, businesses can monitor their performance in real time, identify areas for improvement, and make data-driven decisions.",
+    "sectionThree" : "Automating internal corporate systems is an ongoing journey, not a one-time project. As technology evolves and corporate needs change, new opportunities emerge in the field of automation. Integrating artificial intelligence, machine learning, and predictive analytics represents the next step in the evolution of automated systems.",
+    "sectionFour" : "The key to successful automation lies not only in selecting the right technologies but also in transforming organizational culture and processes. During the implementation of automation, it is essential to involve users, provide proper training, and continuously gather and process feedback.",
+    "sectionFive" : "Your role is critical in driving your company’s digital transformation. By developing automated internal systems, you not only increase operational efficiency but also strengthen the organization’s competitiveness and help prepare it for the digital future."
+  },
+
+  "ContactText" : {
+    "call" : "Feel free to call us!"
   },
 
   "maincard" : [
@@ -144,6 +164,7 @@
       "title": "SPA Website",
       "subtitle": "One‑Page Website Development – Simple one‑page websites for freelancers and companies. We apply our custom website development expertise so that your business can appear online swiftly and stylishly.",
       "image" : "spa",
+      "path" : "services",
       "imagedescription": "Freelancer one-page website developed with custom website development in mind."
     },
     {
@@ -151,6 +172,7 @@
       "title": "Corporate Website Development",
       "subtitle": "Corporate Website Development – Full corporate websites with subpages and rich content, a comprehensive solution. Choose our corporate website design service if you seek a professional online presence and conversion‑oriented site.",
       "image" : "company",
+      "path" : "services",
       "imagedescription": "Corporate website with multiple subpages – corporate website design project in progress."
     },
     {
@@ -158,6 +180,7 @@
       "title": "Online Store Development",
       "subtitle": "Online Store Development – We build modern e‑commerce platforms (e.g., with Supabase and Stripe integration). Through our online store development, you get a scalable and secure solution supporting product and inventory management.",
       "image" : "ecom",
+      "path" : "services",
       "imagedescription": "E-commerce store development with Stripe and Supabase integration – online store development phase."
     },
     {
@@ -165,6 +188,7 @@
       "title" : "SaaS Project Development",
       "subtitle" : "SaaS Project Development – We develop web solutions for startups and enterprises with AI integration and CRM functionalities. In this service, the website development cost is transparently structured.",
       "image" : "saas",
+      "path" : "services",
       "imagedescription": "SaaS project development – custom web application for startup with unique features."
     },
     {
@@ -172,6 +196,7 @@
       "title": "Custom Web Application Development",
       "subtitle": "Custom Web Application Development – Tailor‑made web apps for startups and businesses with bespoke features. This service builds on the opportunities of corporate website design frameworks.",
       "image" : "web",
+      "path" : "services",
       "imagedescription": "Custom web application development – specialized web solution for a startup."
     },
     {
@@ -179,6 +204,7 @@
       "title": "Logo & Brand Identity Design",
       "subtitle": "Logo & Brand Identity Design – Visual identity creation with logo, colors and style for businesses. A perfect complement to custom website development.",
       "image" : "brand",
+      "path" : "services",
       "imagedescription": "ogo & brand identity design – visual identity creation as part of website development."
     },
     {
@@ -186,6 +212,7 @@
       "title": "Web Development Training",
       "subtitle": "Web Development Training – Training based on Next.js and React frameworks so you can be part of the modern website development world. Ask about the website development cost details related to training as well.",
       "image" : "learn",
+      "path" : "services",
       "imagedescription": "Web development training with Next.js and React – teaching website development skills."
     },
     {
@@ -193,6 +220,7 @@
       "title" : "Hosting & Domain Setup",
       "subtitle" : "Hosting & Domain Setup – Full service for hosting and domain setup, enabling immediate launch of your business presence right after custom website development.",
       "image" : "storage",
+      "path" : "services",
       "imagedescription": "Hosting & domain setup – following custom website development for live launch."
     },
     {
@@ -200,9 +228,37 @@
       "title" : "Web Development Consultation",
       "subtitle" : "Web Development Consultation – Hourly‑based consulting for any web‑related question, so your business can plan its website or online store wisely. Consult with us about custom website development!",
       "image" : "consult",
+      "path" : "services",
       "imagedescription": "Web development consultation – quote request and hourly advice on website development."
     }
   ],
+
+  "systemcard": [
+  {
+    "id": 1,
+    "title": "Process Automation",
+    "subtitle": "Process automation involves the digitization and automation of business workflows. This may include automatic data processing, workflow management, and integration between different systems.",
+    "image": "workflow",
+    "path" : "system",
+    "imagedescription": "Workflow automation process"
+  },
+
+  {
+    "id": 2,
+    "title": "Dashboard Development",
+    "subtitle": "Dashboards provide a visual overview of the company's key performance indicators. Automated dashboards update in real time, ensuring that decision-makers always have up-to-date information.",
+    "image": "dashboard",
+    "imagedescription": "Exploring dashboard solutions"
+  },
+
+  {
+    "id": 3,
+    "title": "Reporting System Development",
+    "subtitle": "Automated reporting systems generate and distribute reports at predefined intervals, eliminating the need for manual report creation. These systems can produce reports in various formats (PDF, Excel, interactive web).",
+    "image": "riport",
+    "imagedescription": "Developing or automating reporting systems"
+  }
+],
 
   "mainservice" : [
     {
@@ -231,12 +287,49 @@
     }
   ],
 
+  "systemplus" : [
+    {
+      "id" : 1,
+      "title" : "Business benefits and increased efficiency"
+    },
+    {
+      "id" : 2,
+      "title" : "Advantages of automation"
+    },
+    {
+      "id" : 3,
+      "title" : "Advantages of automation"
+    },
+    {
+      "id" : 4,
+      "title" : "Significantly reduced error rates compared to manual processes"
+    },
+    {
+      "id" : 5,
+      "title" : "Faster response times to market changes"
+    },
+    {
+      "id" : 6,
+      "title" : "Improved data quality and more reliable reporting"
+    },
+    {
+      "id" : 7,
+      "title" : "Scalable solutions that grow with the company"
+    },
+    {
+      "id" : 8,
+      "title" : "Enhanced data security and compliance"
+    }
+  ],
+
   "SmallHero": {
     "mainTitle": "How to Choose the Right Website Developer or Company?",
     "mainSubtitle": "Choosing the right web development partner is crucial for the success of a custom website. Here are some factors to consider when making your decision:",
 
     "serviceTitle" : "The Step-by-Step Process of Custom Website Development?",
-    "serviceImage" : "Public References"
+    "serviceImage" : "Public References",
+
+    "systemTitle" : "The Importance of Automating Internal Corporate Systems"
   },
 
   "CtaForm" : {

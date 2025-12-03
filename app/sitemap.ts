@@ -84,7 +84,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         languages: {
           'x-default': `${baseUrl}/hu/kapcsolat`,
           hu: `${baseUrl}/hu/kapcsolat`,
-          en: `${baseUrl}/en/contact`,
+          en: `${baseUrl}/en/kapcsolat`,
         },
       },
     },

@@ -59,6 +59,10 @@ const Navbar = ({ locale } : Props) => {
                         {t('home')}
                     </Link>
 
+                    <Link href={`/${locale}/rendszerek`} className={getLinkClass('/rendszerek')}>
+                        {t('system')}
+                    </Link>
+
                     <Link href={`/${locale}/szolgaltatasok`} className={getLinkClass('/szolgaltatasok')}>
                         {t('services')}
                     </Link>
@@ -87,6 +91,10 @@ const Navbar = ({ locale } : Props) => {
                     <div className='flex flex-col items-center space-y-8 mt-10 lg:hidden'>
                         <Link href="/" onClick={() => setIsOpen(false)} className={getLinkClass("/")}>
                             {t('home')}
+                        </Link>
+
+                        <Link href={`/${locale}/rendszerek`} onClick={() => setIsOpen(false)} className={getLinkClass("/rendszerek")}>
+                            {t('system')}
                         </Link>
 
                         <Link href={`/${locale}/szolgaltatasok`} onClick={() => setIsOpen(false)} className={getLinkClass("/szolgaltatasok")}>
