@@ -1,4 +1,3 @@
-import { getTranslations } from "next-intl/server"
 import CtaButton from "../Button/CtaButton"
 
 type Props = {

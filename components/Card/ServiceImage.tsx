@@ -8,6 +8,7 @@ interface Services {
     subtitle : string
     image : string
     imagedescription : string
+    path : string
 }
 
 type Props = {
@@ -30,7 +31,7 @@ const ServiceImage = async({ locale, text } : Props) => {
                     className='flex flex-col items-center gap-6 border-2 border-gray-400/40 hover:border-gray-200/70 px-4 py-10 rounded-xl animate-thing border-gray gray-back'
                 >
                     <Image 
-                        src={`/services/${item.image}.svg`}
+                        src={`/${item.path}/${item.image}.svg`}
                         width={100}
                         height={100}
                         alt={`${item.imagedescription}`}

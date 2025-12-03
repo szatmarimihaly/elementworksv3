@@ -3,7 +3,8 @@
     "home" : "Kezdőlap",
     "services" : "Szolgáltatások",
     "contact" : "Kapcsolat",
-    "blog" : "Blog"
+    "blog" : "Blog",
+    "system" : "Rendszerek"
   },
 
   "Footer" : {
@@ -29,14 +30,21 @@
     "description" : "A digitális világban egy professzionális céges weboldal fejlesztés nem csupán lehetőség, hanem üzleti szükségszerűség. A megfelelően kialakított weboldal a vállalkozás digitális névjegykártyája, amely 24 órában dolgozik az Ön sikeréért.",
 
     "serviceTitle" : "Egyedi weboldal készítés",
-    "serviceDescription" : "Ha vállalkozása számára szeretne professzionális online megjelenést, akkor a céges weboldal készítés szolgáltatásunk ideális választás. A sikeres egyedi weboldal készítés egy strukturált folyamat, amely több kulcsfontosságú lépésből áll. Ismerje meg ezeket részletesen."
+    "serviceDescription" : "Ha vállalkozása számára szeretne professzionális online megjelenést, akkor a céges weboldal készítés szolgáltatásunk ideális választás. A sikeres egyedi weboldal készítés egy strukturált folyamat, amely több kulcsfontosságú lépésből áll. Ismerje meg ezeket részletesen.",
+
+    "contactTitle" : "Felkeltettük érdeklődését?",
+    "contactSubtitle" : "Válassza a gyors és közvetlen kapcsolatfelvételt! Szakértőink készséggel állnak rendelkezésére bármilyen webfejlesztéssel kapcsolatos kérdésben.",
+
+    "systemTitle" : "Céges rendszerek fejlesztése és automatizálás",
+    "systemDescription" : "A manuális folyamatok digitalizálása és automatizálása jelentősen növeli a hatékonyságot, mi ebben segítünk."
   },
 
   "Button" : {
     "ctaText" : "Szolgáltatások",
     "ctaContact" : "Kapcsolat",
     "ctaToServices" : "Tovább",
-    "ctaServices" : "Ingyenes igényfelmérés"
+    "ctaServices" : "Ingyenes igényfelmérés",
+    "ctaSystem" : "Automatizáljunk együtt!"
   },
 
   "MainText" : {
@@ -49,6 +57,18 @@
   "ServiceText" : {
     "sectionOne" : "A mai digitális világban egy vállalkozás online jelenléte kulcsfontosságú a sikerhez. Az egyedi weboldal készítés nem csupán egy költség, hanem befektetés a vállalkozás jövőjébe. Egy professzionálisan tervezett, egyedi weboldal segít kiemelkedni a versenytársak közül, vonzza a potenciális ügyfeleket és növeli a bevételt. Ebben az átfogó útmutatóban megismerkedhet az egyedi weboldalak előnyeivel, a készítés folyamatával, és mindazzal, amit tudnia kell, mielőtt belevágna ebbe a fontos projektbe.",
     "sectionTwo" : "Az egyedi weboldal készítés számos előnyt kínál a sablonos megoldásokkal szemben. Míg a sablonok gyors és olcsó megoldást jelenthetnek, az egyedi fejlesztés hosszú távon sokkal jobb megtérülést biztosít. Az egyedi weboldalak tökéletesen illeszkednek a vállalkozás arculatához, igényeihez és céljaihoz. Nem kell kompromisszumokat kötni a funkcionalitás vagy a design terén, minden pontosan úgy működik, ahogy Ön szeretné."
+  },
+
+  "SystemText" : {
+    "sectionOne" : "A modern vállalati környezetben a belső rendszerek automatizálása már nem luxus, hanem alapvető szükséglet. A manuális folyamatok digitalizálása és automatizálása jelentősen növeli a hatékonyságot, csökkenti a hibalehetőségeket, és felszabadítja az értékes emberi erőforrásokat a kreatívabb feladatok számára. Kulcsszerepet játszhat vállalatának versenyképessége növelésében az intelligens, automatizált belső rendszerek létrehozásával.",
+    "sectionTwo" : "Az automatizálás lehetővé teszi a vállalatok számára, hogy optimalizálják belső folyamataikat, növeljék a hatékonyságot és csökkentsék a költségeket. A jól megtervezett belső rendszerek segítségével a cégek valós időben nyomon követhetik teljesítményüket, azonosíthatják a fejlesztendő területeket, és adatalapú döntéseket hozhatnak.",
+    "sectionThree" : "A belső céges rendszerek automatizálása folyamatos utazás, nem egyszeri projekt. A technológia fejlődésével és a vállalati igények változásával új lehetőségek nyílnak meg az automatizálás területén. A mesterséges intelligencia, a gépi tanulás és a prediktív analitika integrálása a következő lépés lehet az automatizált rendszerek fejlesztésében.",
+    "sectionFour" : "A sikeres automatizálás kulcsa nem csupán a megfelelő technológia kiválasztása, hanem a vállalati kultúra és folyamatok átalakítása is. Az automatizálás bevezetése során fontos a felhasználók bevonása és képzése, valamint a folyamatos visszajelzések gyűjtése és feldolgozása.",
+    "sectionFive" : "Az Ön szerepe kulcsfontosságú a vállalat digitális transzformációjában. Az automatizált belső rendszerek fejlesztésével nemcsak a hatékonyságot növeli, hanem hozzájárul a vállalat versenyképességének javításához és a digitális jövőre való felkészüléséhe"
+  },
+
+  "ContactText" : {
+    "call" : "Hívjon bizalommal!"
   },
 
   "maincard" : [
@@ -144,6 +164,7 @@
       "title": "SPA Weboldal",
       "subtitle": "Bemutatkozó one‑page weboldal készítés – Egyszerű bemutatkozó oldalak fejlesztése egyéni vállalkozóknak és cégeknek. Alkalmazzuk az egyedi weboldal készítés elvét, hogy vállalkozása gyorsan és stílusosan jelenhessen meg az interneten.",
       "image" : "spa",
+      "path" : "services",
       "imagedescription": "Egyéni vállalkozó bemutatkozó one-page weboldala – egyedi weboldal készítés állapotban."
     },
     {
@@ -151,6 +172,7 @@
       "title": "Céges Weboldalak",
       "subtitle": "Céges weboldal készítés – Nagyobb céges weboldalak aloldalakkal, több tartalommal, teljes körű megoldásként. Válassza a céges weboldal készítés szolgáltatásunkat, ha professzionális online jelenlétet‑ és tehát konverziós weboldalt kíván.",
       "image" : "company",
+      "path" : "services",
       "imagedescription": "Céges weboldal több aloldallal – céges weboldal készítés folyamata közben"
     },
     {
@@ -158,6 +180,7 @@
       "title": "Webshop Fejlesztés",
       "subtitle": "Webshop fejlesztés – Készítünk modern e‑kereskedelmi platformokat (pl. Supabase, Stripe integrációval). A webshop fejlesztés révén skálázható és biztonságos megoldást kap, amely támogatja a termék‑ és készletkezelést is.",
       "image" : "ecom",
+      "path" : "services",
       "imagedescription": "Webshop fejlesztés – Stripe és Supabase integrációval, webshop fejlesztés alatt."
     },
     {
@@ -165,6 +188,7 @@
       "title" : "SaaS Projekt Fejlesztés",
       "subtitle" : "SaaS projekt fejlesztés – Egyedi startupok és cégek számára készítünk webes megoldásokat, AI‑integrációval, CRM‑funkciókkal. A szolgáltatásunk keretében a weboldal készítés ár is átlátható módon alakul.",
       "image" : "saas",
+      "path" : "services",
       "imagedescription": "SaaS projekt fejlesztés – startup webalkalmazás egyedi funkciókkal."
     },
     {
@@ -172,6 +196,7 @@
       "title": "Egyéb Egyedi Webalkalmazások",
       "subtitle": "Egyedi webalkalmazás fejlesztés – Speciális igényekhez igazított webalkalmazások startupoknak, egyedi funkciókkal. A szolgáltatásunk része a céges weboldal készítés keretrendszerben rejlő lehetőség is.",
       "image" : "web",
+      "path" : "services",
       "imagedescription": "Egyedi webalkalmazás készítés – startupnak szánt specializált webes megoldás."
     },
     {
@@ -179,6 +204,7 @@
       "title": "Logó és Arculattervezés",
       "subtitle": "Logó & arculattervezés – Vizuális identitás készítése logóval, színekkel, stílussal vállalkozásoknak. Tökéletes kiegészítője az egyedi weboldal készítés folyamatának.",
       "image" : "brand",
+      "path" : "services",
       "imagedescription": "Logó és arculattervezés – vizuális identitás készítése a weboldal készítés folyamatának részeként."
     },
     {
@@ -186,6 +212,7 @@
       "title": "Oktatás",
       "subtitle": "Webfejlesztés oktatás – Next.js és React alapú keretrendszer oktatás, hogy Ön is részese lehessen a modern weboldal készítés világának. Kérdezze meg a weboldal készítés ár részleteit az oktatás kapcsán is.",
       "image" : "learn",
+      "path" : "services",
       "imagedescription": "Webfejlesztés oktatás Next.js és React keretrendszerrel – weboldal készítés tudás átadása."
     },
     {
@@ -193,6 +220,7 @@
       "title" : "Tárhely és Domain Felállítás",
       "subtitle" : "Tárhely & domain felállítás – Teljes körű hosting szolgáltatás és domain beállítás, amivel az egyedi weboldal készítés után azonnal élesíthető vállalkozása oldal‑ jelenléte.",
       "image" : "storage",
+      "path" : "services",
       "imagedescription": "Tárhely és domain felállítása – egyedi weboldal készítés utáni publikáláshoz."
     },
     {
@@ -200,7 +228,37 @@
       "title" : "Konzultáció",
       "subtitle" : "Webfejlesztési konzultáció – Bármely webes kérdés esetén igénybe vehető óradíjas tanácsadás, hogy a vállalkozása tudatosan tervezhesse weboldalát vagy webshopját. Egyeztessen velünk az egyedi weboldal készítés kapcsán!",
       "image" : "consult",
+      "path" : "services",
       "imagedescription": "Webfejlesztési konzultáció – ajánlatkérés, óradíjas tanácsadás weboldal készítés témájában."
+    }
+  ],
+
+  "systemcard" : [
+    {
+      "id" : 1,
+      "title" : "Folyamatautomatizálás",
+      "subtitle" : "A folyamatautomatizálás az üzleti folyamatok digitalizálását és automatizálását jelenti. Ez magában foglalhatja az adatok automatikus feldolgozását, a munkafolyamatok kezelését és a különböző rendszerek közötti integrációt.",
+      "image" : "workflow",
+      "path" : "system",
+      "imagedescription" : "Worklfow automatizáció folyamata"
+    },
+
+    {
+      "id" : 2,
+      "title" : "Dashboard fejlesztés", 
+      "subtitle" : "A dashboardok vizuális áttekintést nyújtanak a vállalat kulcsfontosságú teljesítménymutatóiról.Az automatizált dashboardok valós időben frissülnek, így mindig naprakész információkat biztosítanak a döntéshozók számára.",
+      "image" : "dashboard",
+      "path" : "system",
+      "imagedescription" : "Dashboard megoldások felfedezése"
+    },
+
+    {
+      "id" : 3,
+      "title" : "Riportrendszerek fejlszetése",
+      "subtitle" : "Az automatizált riportrendszerek előre meghatározott időközönként generálnak és terjesztenek jelentéseket, kiküszöbölve a manuális riportkészítés szükségességét. Ezek a rendszerek különböző formátumokban (PDF, Excel, interaktív web) készíthetnek jelentéseket.",
+      "image" : "riport",
+      "path" : "system",
+      "imagedescription" : "Riportrendszerek fejlesztése vagy meglévő rendszerek automatizálása"
     }
   ],
 
@@ -231,12 +289,49 @@
     }
   ],
 
+  "systemplus" : [
+    {
+      "id" : 1,
+      "title" : "Üzleti előnyök és hatékonyságnövelés"
+    },
+    {
+      "id" : 2,
+      "title" : "Az automatizálás előnyei"
+    },
+    {
+      "id" : 3,
+      "title" : "Akár 70%-os időmegtakarítás az ismétlődő feladatoknál"
+    },
+    {
+      "id" : 4,
+      "title" : "Jelentősen csökkenő hibaarány a manuális folyamatokhoz képest"
+    },
+    {
+      "id" : 5,
+      "title" : "Gyorsabb reakcióidő a piaci változásokra"
+    },
+    {
+      "id" : 6,
+      "title" : "Jobb adatminőség és megbízhatóbb riportok"
+    },
+    {
+      "id" : 7,
+      "title" : "Skálázható megoldások, amelyek növekednek a vállalattal"
+    },
+    {
+      "id" : 8,
+      "title" : "Fokozott adatbiztonság és megfelelőség"
+    }
+  ],
+
   "SmallHero" : { 
     "mainTitle" : "Hogyan válasszon megfelelő weboldal fejlesztőt vagy céget?", 
     "mainSubtitle" : "A megfelelő webfejlesztő partner kiválasztása kulcsfontosságú az egyedi weboldal készítés sikeréhez. Íme néhány szempont, amelyet érdemes figyelembe venni a döntés során:",
 
     "serviceTitle" : "Az egyedi weboldal készítés folyamata lépésről lépésre?",
-    "serviceImage" : "Nyilvános referenciák"
+    "serviceImage" : "Nyilvános referenciák",
+
+    "systemTitle" : "A belső céges rendszerek automatizálásának jelentősége"
   },
 
   "CtaForm" : {

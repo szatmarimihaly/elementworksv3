@@ -27,8 +27,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await Promise.resolve(params);
 
   const title = locale === 'hu'
-    ? 'Egyedi weboldal készítés és Webshop fejlesztés | ELEMENTWORKS'
-    : 'Custom Website Development and E-commerce Solutions | ELEMENTWORKS';
+    ? 'Egyedi weboldal készítés | ELEMENTWORKS'
+    : 'Custom Website Development | ELEMENTWORKS';
     
   const description = locale === 'hu'
     ? 'Egyedi weboldal készítés, céges weboldal fejlesztés és webshop fejlesztés egy helyen. Kérje árajánlatunkat weboldal készítésre.'

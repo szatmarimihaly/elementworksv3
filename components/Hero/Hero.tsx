@@ -7,7 +7,7 @@ type Props = {
 
 const Hero = ({ title, description } : Props) => {
   return (
-    <div className=''>
+    <div className='w-full mx-auto'>
       <h1 className='text-center text-5xl lg:text-7xl font-bold bg-gradient-to-b from-white to-gray-600 bg-clip-text text-transparent leading-tight pb-2'>
           {title}
       </h1>

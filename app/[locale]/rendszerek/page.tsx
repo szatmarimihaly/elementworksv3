@@ -1,0 +1,121 @@
+import React from 'react'
+import { Metadata } from 'next'
+import { getTranslations } from 'next-intl/server'  
+import Hero from '@/components/Hero/Hero'
+import CtaButtonBlack from '@/components/Button/CtaButtonBlack'
+import Paragraph from '@/components/Paragraph/Paragraph'
+import ServiceImage from '@/components/Card/ServiceImage'
+import SubHero from '@/components/Hero/SubHero'
+import Line from '@/components/Visual/Line'
+import Online from '@/components/Visual/Online'
+
+type Params = {
+    params : {
+        locale : string
+    }
+}
+
+type Props = {
+    params : { locale : string }
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await Promise.resolve(params);
+
+  const title = locale === 'hu'
+    ? 'Céges rendszerek fejlesztése és automatizálás'
+    : 'Corporate System Development and Automation';
+    
+  const description = locale === 'hu'
+    ? 'A manuális folyamatok digitalizálása és automatizálása jelentősen növeli a hatékonyságot, mi ebben segítünk.'
+    : 'Digitizing and automating manual processes significantly increases efficiency — and that’s exactly where we can help.';
+
+  return {
+    title,
+    description,
+    
+    openGraph: {
+      title,
+      description,
+      url: `https://elementworksv3.vercel.app/${locale}/rendszerek`,
+      siteName: 'Elementworks',
+      locale: locale === 'hu' ? 'hu_HU' : 'en_US',
+      type: 'website',
+      images: [
+        {
+          url: 'https://elementworksv3.vercel.app/new2.png',
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+    },
+    
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['https://elementworksv3.vercel.app/new2.png'],
+    },
+    
+    alternates: {
+      canonical: `https://elementworksv3.vercel.app/${locale}/rendszerek`,
+      languages: {
+        'hu': 'https://elementworksv3.vercel.app/hu/rendszerek',
+        'en': 'https://elementworksv3.vercel.app/en/rendszerek',
+        'x-default': 'https://elementworksv3.vercel.app/hu/rendszerek',
+      },
+    },
+    
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
+  };
+}
+
+export default async function Page({ params } : Params) {
+
+    const { locale } =  await params
+    const t = await getTranslations({ locale })
+
+    return(
+        <main>
+            <section className='hero-prop'>
+                <Hero title={t('Hero.systemTitle')} description={t('Hero.systemDescription')}/>
+            </section>
+
+            <div className='section-top'>
+                <CtaButtonBlack href={`/${locale}/kapcsolat`} text={t('Button.ctaSystem')} />
+            </div>
+
+            <Paragraph text={t('SystemText.sectionOne')}/>
+
+            <section className='section-top'>
+              <ServiceImage locale={locale} text="systemcard"/>
+            </section>
+
+            <section>
+              <SubHero text={t('SmallHero.systemTitle')} />
+              <Line/>
+              <Paragraph text={t('SystemText.sectionTwo')}/>
+              <Paragraph text={t('SystemText.sectionThree')} />
+            </section>
+
+            <section className='section-top'>
+              <Online locale={locale} text='systemplus'/>
+            </section>
+
+            
+        </main>
+    )
+    
+}
+
