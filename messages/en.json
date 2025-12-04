@@ -248,6 +248,7 @@
     "title": "Dashboard Development",
     "subtitle": "Dashboards provide a visual overview of the company's key performance indicators. Automated dashboards update in real time, ensuring that decision-makers always have up-to-date information.",
     "image": "dashboard",
+    "path" : "system",
     "imagedescription": "Exploring dashboard solutions"
   },
 
@@ -256,6 +257,7 @@
     "title": "Reporting System Development",
     "subtitle": "Automated reporting systems generate and distribute reports at predefined intervals, eliminating the need for manual report creation. These systems can produce reports in various formats (PDF, Excel, interactive web).",
     "image": "riport",
+    "path" : "system",
     "imagedescription": "Developing or automating reporting systems"
   }
 ],
@@ -347,6 +349,10 @@
 
     "fourthTitle" : "Ready for the next step?",
     "fourthSubtitle" : "Request a free consultation and quote today, and begin the custom website development process!",
-    "fourthButton" : "Request a Free Estimate"
+    "fourthButton" : "Request a Free Estimate",
+
+    "fifthTitle" : "Ready for Automation?",
+    "fifthSubtitle" : "Our team of experts can help you automate your internal systems. During a free consultation, we’ll assess your unique needs and recommend the most suitable automation solutions.",
+    "fifthButton" : "Request a Free Consultation"
   }
 }

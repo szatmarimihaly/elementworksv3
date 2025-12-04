@@ -8,6 +8,7 @@ import ServiceImage from '@/components/Card/ServiceImage'
 import SubHero from '@/components/Hero/SubHero'
 import Line from '@/components/Visual/Line'
 import Online from '@/components/Visual/Online'
+import Cta from '@/components/Visual/Cta'
 
 type Params = {
     params : {
@@ -113,6 +114,12 @@ export default async function Page({ params } : Params) {
               <Online locale={locale} text='systemplus'/>
             </section>
 
+            <Cta
+              title={t("CtaForm.firstTitle")}
+              subtitle={t("CtaForm.fifthSubtitle")}
+              button={t("CtaForm.fifthButton")}
+              href={`/${locale}/kapcsolat`}
+            />
             
         </main>
     )
