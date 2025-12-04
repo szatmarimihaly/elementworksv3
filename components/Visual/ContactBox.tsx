@@ -1,6 +1,5 @@
 import Image from "next/image"
 import Link from "next/link"
-import SubHero from "../Hero/SubHero"
 import Line from "./Line"
 
 type Props = {
@@ -12,7 +11,7 @@ const ContactBox = ({ text } : Props) => {
     <div className='flex flex-col lg:flex-row items-center justify-evenly gap-10 lg:gap-0 section-top'>
         <div className="flex flex-col items-center justify-between gap-10">
             <div className="flex flex-col items-center">
-                <SubHero text={text}/>
+                <p className="text-3xl lg:text-5xl font-bold">{text}</p>
                 <Line/>
             </div>
             <Link
