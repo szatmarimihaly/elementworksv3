@@ -64,7 +64,8 @@
     "sectionTwo" : "Automation enables companies to optimize internal workflows, boost productivity, and reduce operational costs. With well-designed internal systems, businesses can monitor their performance in real time, identify areas for improvement, and make data-driven decisions.",
     "sectionThree" : "Automating internal corporate systems is an ongoing journey, not a one-time project. As technology evolves and corporate needs change, new opportunities emerge in the field of automation. Integrating artificial intelligence, machine learning, and predictive analytics represents the next step in the evolution of automated systems.",
     "sectionFour" : "The key to successful automation lies not only in selecting the right technologies but also in transforming organizational culture and processes. During the implementation of automation, it is essential to involve users, provide proper training, and continuously gather and process feedback.",
-    "sectionFive" : "Your role is critical in driving your company’s digital transformation. By developing automated internal systems, you not only increase operational efficiency but also strengthen the organization’s competitiveness and help prepare it for the digital future."
+    "sectionFive" : "Your role is critical in driving your company’s digital transformation. By developing automated internal systems, you not only increase operational efficiency but also strengthen the organization’s competitiveness and help prepare it for the digital future.",
+    "sectionSix" : "Automation is not just the simple digitalization of existing processes, but an opportunity to rethink and optimize them."
   },
 
   "ContactText" : {
@@ -155,6 +156,63 @@
       "id" : 6,
       "title" : "Launch and Handover",
       "subtitle" : "The final step is launching the website by uploading it to the live domain and hosting server. During the handover, the client receives all necessary access credentials and documentation."
+    }
+  ],
+
+  "automate" : [
+    {
+      "id" : 1,
+      "title" : "Comprehensive Requirements Assessment and Planning",
+      "subtitle" : "We begin with a detailed analysis of your current workflows and business requirements. We identify the processes where automation can create the highest value and outline the development roadmap."
+    },
+    {
+      "id" : 2,
+      "title" : "Designing a Modular System Architecture",
+      "subtitle" : "We design a modular system structure that ensures long-term maintainability and scalability. Each functionality is organized into independent modules with clean, well-defined interfaces."
+    },
+    {
+      "id" : 3,
+      "title" : "Implementing API-Based Integrations",
+      "subtitle" : "We connect your internal tools, databases, and third-party services through API-driven communication. This enables seamless data flow and eliminates manual, error-prone tasks."
+    },
+    {
+      "id" : 4,
+      "title" : "Developing User-Friendly Interfaces",
+      "subtitle" : "We create interfaces that make automated processes intuitive and easy to operate. Our focus is on clean UX/UI design and — if needed — providing proper user training."
+    },
+    {
+      "id" : 5,
+      "title" : "Introducing Automated Testing Workflows",
+      "subtitle" : "To ensure reliability, we implement an automated testing environment with unit, integration, and UI tests. This allows us to validate each development step before deployment."
+    },
+    {
+      "id" : 6,
+      "title" : "Gradual Rollout and Iterative Refinement",
+      "subtitle" : "We deploy the system in controlled phases, monitor real-world usage, and refine the solution based on user feedback. This iterative approach minimizes risks and delivers maximum business value."
+    }
+  ],
+
+  "automate2" : [
+    {
+      "id" : 1,
+      "title" : "Fast Processes",
+      "alt" : "con representing fast and efficient business processes with streamlined workflow elements.",
+      "icon" : "speed",
+      "path" : "plus"
+    },
+    {
+      "id" : 2,
+      "title" : "Customer Experience",
+      "alt" : "Icon symbolizing enhanced customer experience, showing user-focused service and satisfaction.",
+      "icon" : "customer",
+      "path" : "plus"
+    },
+    {
+      "id" : 3,
+      "title" : "More Time",
+      "alt" : "Icon illustrating time savings, featuring a clock and simplified tasks to represent increased efficiency.",
+      "icon" : "time",
+      "path" : "plus"
     }
   ],
 
@@ -331,7 +389,9 @@
     "serviceTitle" : "The Step-by-Step Process of Custom Website Development?",
     "serviceImage" : "Public References",
 
-    "systemTitle" : "The Importance of Automating Internal Corporate Systems"
+    "systemTitle" : "The Importance of Automating Internal Corporate Systems",
+    "systemTitle2" : "Practical Tips and Best Practices",
+    "systemTitle3": "Final Thoughts and Further Development Opportunities"
   },
 
   "CtaForm" : {

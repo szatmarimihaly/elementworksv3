@@ -1,5 +1,5 @@
 import React from 'react'
-import { Metadata } from 'next'
+import type { Metadata } from  "next"
 import { getTranslations } from 'next-intl/server'
 import Hero from '@/components/Hero/Hero'
 import CtaButton from '@/components/Button/CtaButton'

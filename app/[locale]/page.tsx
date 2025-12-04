@@ -1,7 +1,7 @@
 // app/[locale]/page.tsx
 import { getTranslations } from 'next-intl/server'
 import { routing } from '@/i18n/routing'
-import { Metadata } from 'next'
+import type { Metadata } from  "next"
 import Hero from '@/components/Hero/Hero'
 import CtaButton from '@/components/Button/CtaButton'
 import CtaButtonBlack from '@/components/Button/CtaButtonBlack'

@@ -1,6 +1,6 @@
 import Hero from "@/components/Hero/Hero"
 import ContactBox from "@/components/Visual/ContactBox"
-import { Metadata } from "next"
+import type { Metadata } from  "next"
 import { getTranslations } from "next-intl/server"
 
 type Params = {
