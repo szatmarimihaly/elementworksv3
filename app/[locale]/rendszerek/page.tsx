@@ -1,5 +1,5 @@
 import React from 'react'
-import { Metadata } from 'next'
+import type { Metadata } from  "next"
 import { getTranslations } from 'next-intl/server'  
 import Hero from '@/components/Hero/Hero'
 import CtaButtonBlack from '@/components/Button/CtaButtonBlack'
@@ -9,6 +9,9 @@ import SubHero from '@/components/Hero/SubHero'
 import Line from '@/components/Visual/Line'
 import Online from '@/components/Visual/Online'
 import Cta from '@/components/Visual/Cta'
+import Number from '@/components/Card/Number'
+import IconCard from '@/components/Card/IconCard'
+import Image from 'next/image'
 
 type Params = {
     params : {
@@ -114,13 +117,36 @@ export default async function Page({ params } : Params) {
               <Online locale={locale} text='systemplus'/>
             </section>
 
+            <section className='section-top'>
+              <SubHero text={t('SmallHero.systemTitle2')}/>
+              <Number locale={locale} text="automate" />
+            </section>
+
+            <IconCard locale={locale} text="automate2"/>
+
+            <section className='section-top'>
+              <SubHero text={t('SmallHero.systemTitle3')} />
+              <Line/>
+              <Paragraph text={t('SystemText.sectionFour')} />
+              <Paragraph text={t('SystemText.sectionFive')} />
+            </section>
+
+            <section className='section-top flex flex-col items-center gap-10'>
+              <Image 
+                src={`/plus/rethink.svg`}
+                alt={t("SystemText.sectionSix")}
+                width={200}
+                height={200}
+              />
+              <p className='text-3xl text-center font-bold text-gray-300'>" {t('SystemText.sectionSix')} "</p>
+            </section>
+
             <Cta
               title={t("CtaForm.firstTitle")}
               subtitle={t("CtaForm.fifthSubtitle")}
               button={t("CtaForm.fifthButton")}
               href={`/${locale}/kapcsolat`}
             />
-            
         </main>
     )
     

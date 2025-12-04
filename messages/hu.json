@@ -64,7 +64,8 @@
     "sectionTwo" : "Az automatizálás lehetővé teszi a vállalatok számára, hogy optimalizálják belső folyamataikat, növeljék a hatékonyságot és csökkentsék a költségeket. A jól megtervezett belső rendszerek segítségével a cégek valós időben nyomon követhetik teljesítményüket, azonosíthatják a fejlesztendő területeket, és adatalapú döntéseket hozhatnak.",
     "sectionThree" : "A belső céges rendszerek automatizálása folyamatos utazás, nem egyszeri projekt. A technológia fejlődésével és a vállalati igények változásával új lehetőségek nyílnak meg az automatizálás területén. A mesterséges intelligencia, a gépi tanulás és a prediktív analitika integrálása a következő lépés lehet az automatizált rendszerek fejlesztésében.",
     "sectionFour" : "A sikeres automatizálás kulcsa nem csupán a megfelelő technológia kiválasztása, hanem a vállalati kultúra és folyamatok átalakítása is. Az automatizálás bevezetése során fontos a felhasználók bevonása és képzése, valamint a folyamatos visszajelzések gyűjtése és feldolgozása.",
-    "sectionFive" : "Az Ön szerepe kulcsfontosságú a vállalat digitális transzformációjában. Az automatizált belső rendszerek fejlesztésével nemcsak a hatékonyságot növeli, hanem hozzájárul a vállalat versenyképességének javításához és a digitális jövőre való felkészüléséhe"
+    "sectionFive" : "Az Ön szerepe kulcsfontosságú a vállalat digitális transzformációjában. Az automatizált belső rendszerek fejlesztésével nemcsak a hatékonyságot növeli, hanem hozzájárul a vállalat versenyképességének javításához és a digitális jövőre való felkészüléséhe",
+    "sectionSix" : "Az automatizálás nem a meglévő folyamatok egyszerű digitalizálása, hanem lehetőség a folyamatok újragondolására és optimalizálására."
   },
 
   "ContactText" : {
@@ -155,6 +156,63 @@
       "id" : 6,
       "title" : "Élesítés és átadás",
       "subtitle" : "Az utolsó lépés a weboldal élesítése, vagyis a végleges domain névre és tárhelyre való feltöltése. Az átadás során a megrendelő megkapja a szükséges hozzáféréseket és dokumentációt."
+    }
+  ],
+
+  "automate" : [
+    {
+      "id" : 1,
+      "title" : "Átfogó igényfelmérés és tervezés",
+      "subtitle" : "A projektet egy részletes folyamat- és igényfelméréssel indítjuk. Feltérképezzük a jelenlegi működést, az üzleti igényeket, és meghatározzuk, hol teremthet legnagyobb értéket az automatizálás. Ezt követően elkészítjük a fejlesztési ütemtervet."
+    },
+    {
+      "id" : 2,
+      "title" : "Moduláris rendszerarchitektúra kialakítása",
+      "subtitle" : "A következő lépésben megtervezzük a moduláris rendszerstruktúrát, amely hosszú távon is könnyen karbantartható és bővíthető. A funkciókat önálló modulokba szervezzük, tiszta és jól definiált interfészekkel."
+    },
+    {
+      "id" : 3,
+      "title" : "API-alapú integrációk megvalósítása",
+      "subtitle" : "Összekötjük a belső rendszereket, adatbázisokat és külső szolgáltatásokat API-alapú kommunikációval. Ez biztosítja a zökkenőmentes adatáramlást és megszünteti a manuális, hibalehetőségekkel teli folyamatokat."
+    },
+    {
+      "id" : 4,
+      "title" : "Felhasználóbarát felületek fejlesztése",
+      "subtitle" : "Olyan felhasználói felületeket készítünk, amelyek egyszerűvé és átláthatóvá teszik az automatizált folyamatok működését. Kiemelt figyelmet fordítunk a jó UX/UI-ra, és igény esetén felhasználói oktatást is biztosítunk."
+    },
+    {
+      "id" : 5,
+      "title" : "Automatizált tesztelési rendszer bevezetése",
+      "subtitle" : "A megbízható működés érdekében automatizált tesztelési környezetet építünk — egység-, integrációs és felhasználói felület tesztekkel. Így minden fejlesztési lépést ellenőrizni tudunk a bevezetés előtt."
+    },
+    {
+      "id" : 6,
+      "title" : "Fokozatos bevezetés és iteratív finomhangolás",
+      "subtitle" : "Az elkészült rendszert lépésenként vezetjük be, valós használat mellett monitorozzuk, és a felhasználók visszajelzései alapján tovább finomítjuk. Az iteratív megközelítés minimalizálja a kockázatot és maximális üzleti értéket biztosít."
+    }
+  ],
+
+  "automate2" : [
+    {
+      "id" : 1,
+      "title" : "Gyors folyamatok",
+      "alt" : "Ikon, amely a gyors és hatékony üzleti folyamatokat áramvonalas munkafolyamat-elemekkel ábrázolja.",
+      "icon" : "speed",
+      "path" : "plus"
+    },
+    {
+      "id" : 2,
+      "title" : "Ügyfélélmény",
+      "alt" : "Ikon, amely a kiemelkedő ügyfélélményt jelképezi, felhasználóközpontú szolgáltatással és elégedettséggel.",
+      "icon" : "customer",
+      "path" : "plus"
+    },
+    {
+      "id" : 3,
+      "title" : "Több idő",
+      "alt" : "Ikon, amely az időmegtakarítást ábrázolja, órával és leegyszerűsített feladatokkal a nagyobb hatékonyság jelképeként.",
+      "icon" : "time",
+      "path" : "plus"
     }
   ],
 
@@ -331,7 +389,9 @@
     "serviceTitle" : "Az egyedi weboldal készítés folyamata lépésről lépésre?",
     "serviceImage" : "Nyilvános referenciák",
 
-    "systemTitle" : "A belső céges rendszerek automatizálásának jelentősége"
+    "systemTitle" : "A belső céges rendszerek automatizálásának jelentősége",
+    "systemTitle2" : "Gyakorlati tippek és best practice-ek",
+    "systemTitle3" : "Záró gondolatok és további fejlesztési lehetőségek"
   },
 
   "CtaForm" : {
