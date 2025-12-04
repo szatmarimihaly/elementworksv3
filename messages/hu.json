@@ -349,7 +349,11 @@
 
     "fourthTitle" : "Készen áll a következő lépésre?",
     "fourthSubtitle" : "Kérjen ingyenes konzultációt és árajánlatot most, és kezdje el az egyedi weboldal készítés folyamatát!",
-    "fourthButton" : "Ingyenes ajánlatkérés"
+    "fourthButton" : "Ingyenes ajánlatkérés",
+
+    "fifthTitle" : "Készen áll az automatizálásra?",
+    "fifthSubtitle" : "Szakértői csapatunk segít Önnek a belső rendszerek automatizálásában. Ingyenes konzultációnk során felmérjük az Ön egyedi igényeit és javaslatot teszünk a legmegfelelőbb automatizálási megoldásokra.",
+    "fifthButton" : "Ingyenes konzultáció"
   }
 
 
