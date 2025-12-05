@@ -6,7 +6,6 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export async function POST(request: NextRequest) {
     try {
         if (!process.env.RESEND_API_KEY) {
-            console.error('RESEND_API_KEY is not set');
             return NextResponse.json(
                 { error: 'API key not configured' },
                 { status: 500 }
@@ -20,10 +19,8 @@ export async function POST(request: NextRequest) {
         const tel = formData.get('tel') as string;
         const message = formData.get('message') as string;
 
-        console.log('Sending email to:', email);
-
-        const { data, error } = await resend.emails.send({
-            from: 'Acme <onboarding@resend.dev>',
+        const { error } = await resend.emails.send({
+            from: 'ELEMENTWORKS <no-reply@elementworks.eu>',
             to: [email],
             subject: "Üzeneted megkaptuk! / We received your message!",
             html: `
@@ -47,7 +44,7 @@ export async function POST(request: NextRequest) {
 
                     <p style="color: #666; line-height: 1.6;">
                         Üdvözlettel,<br>
-                        <strong>Az Acme Csapat</strong>
+                        <strong>Az ELEMENTWORKS Csapat</strong>
                     </p>
 
                     <hr style="border: none; border-top: 1px solid #eee; margin: 30px 0;">
@@ -63,9 +60,7 @@ export async function POST(request: NextRequest) {
             console.error('Resend error:', error)
             return NextResponse.json({ error: error.message }, { status: 400 })
         }
-
-        console.log('Email sent successfully:', data);
-        return NextResponse.json({ success: true, data }, { status: 200 });
+        return NextResponse.json({ success: true }, { status: 200 });
 
     } catch (error) {
         console.error('API error: ', error)

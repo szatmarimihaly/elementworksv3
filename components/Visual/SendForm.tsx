@@ -21,9 +21,7 @@ export default function SendForm() {
                 body: form 
             });
 
-            console.log('Response status:', res.status);
             const data = await res.json();
-            console.log('Response data:', data);
 
             if (res.ok) {
                 setStatus("✅ Email elküldve! Hamarosan válaszolunk.");
@@ -32,7 +30,6 @@ export default function SendForm() {
                 setStatus(`❌ Hiba: ${data.error || "Nem sikerült elküldeni az emailt."}`);
             }
         } catch (error) {
-            console.error('Fetch error:', error);
             setStatus("❌ Hiba történt. Próbáld újra később.");
         } finally {
             setLoading(false);
