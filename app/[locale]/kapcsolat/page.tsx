@@ -93,9 +93,7 @@ export default async function Page({ params } : Params){
 
       <SubHero text={t('SmallHero.contactTitle')}/>
       <Line/>
-      <SendForm/>
-
-
+      <SendForm text={t('FormContent.button')} namePlace={t('FormContent.name')} textPlace={t('FormContent.message')}/>
     </main>
   )
 }

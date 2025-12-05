@@ -1,10 +1,16 @@
 "use client";
-import { useState } from "react";
-import CircularProgress from '@mui/material/CircularProgress';
+import { useState } from "react"
+import CircularProgress from '@mui/material/CircularProgress'
 
-export default function SendForm() {
-  const [status, setStatus] = useState(""); // message to display
-  const [loading, setLoading] = useState(false); // loading state
+type Props = {
+    text : string,
+    textPlace : string,
+    namePlace : string
+}
+
+export default function SendForm({ text, textPlace, namePlace } : Props) {
+  const [status, setStatus] = useState("");
+  const [loading, setLoading] = useState(false);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -19,9 +25,7 @@ export default function SendForm() {
 
       if (res.ok) {
         setStatus("✅ Email elküldve! Hamarosan válaszolunk.");
-        e.currentTarget.reset(); // clear the form
       } else {
-        // display backend error if any
         setStatus(`❌ Hiba: ${data.error || "Nem sikerült elküldeni az emailt."}`);
       }
     } catch (err: unknown) {
@@ -38,7 +42,7 @@ export default function SendForm() {
       <input
         name="name"
         type="text"
-        placeholder="Name"
+        placeholder={`${namePlace}`}
         required
         className="bg-white/5 px-4 py-2 rounded-xl border-2 border-gray-400/40 w-full max-w-md"
       />
@@ -58,7 +62,7 @@ export default function SendForm() {
       />
       <textarea
         name="message"
-        placeholder="Üzenet ide..."
+        placeholder={`${textPlace}`}
         required
         rows={2}
         className="bg-white/5 px-4 py-2 rounded-xl border-2 border-gray-400/40 w-full max-w-md"
@@ -67,13 +71,13 @@ export default function SendForm() {
       <button
         type="submit"
         disabled={loading}
-        className="bg-white text-black px-10 py-2 font-bold rounded-full transition-all duration-300 hover:bg-white/80"
+        className="bg-white text-black px-10 py-2 font-bold rounded transition-all duration-300 hover:bg-white/80"
       >
-        {loading ? <CircularProgress size={20} sx={{ color: "black" }} /> : "Send message"}
+        {loading ? <CircularProgress size={20} sx={{ color: "black" }} /> : `${text}`}
       </button>
 
       {status && (
-        <p className="text-center text-sm mt-2 break-words">{status}</p>
+        <p className="text-center text-sm break-words">{status}</p>
       )}
     </form>
   );

@@ -416,5 +416,11 @@
     "fifthTitle" : "Ready to take your efficiency to the next level?",
     "fifthSubtitle" : "Our team will help you identify where your processes can be optimized or made more efficient through our systems and custom-built solutions.",
     "fifthButton" : "Consultation"
+  },
+
+  "FormContent" : {
+    "button" : "Send Message",
+    "message" : "Your message here...",
+    "name" : "Albert Einstein"
   }
 }

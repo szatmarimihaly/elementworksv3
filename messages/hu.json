@@ -416,6 +416,12 @@
     "fifthTitle" : "Készen állsz, hogy a következő szintre emeljük hatékonyságod?",
     "fifthSubtitle" : "Csapatunk segít azonosítani, hol lehetne optimalizálni vagy hatékonyabbá tenni folyamatait rendszereink segítségével, egyedi megoldásainkkal.",
     "fifthButton" : "Konzultáció"
+  },
+
+  "FormContent" : {
+    "button" : "Üzenet elküldése",
+    "message" : "Írd meg az üzenetet...",
+    "name" : "Albert Einstein"
   }
 
 
