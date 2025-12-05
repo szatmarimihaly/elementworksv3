@@ -391,7 +391,9 @@
 
     "systemTitle" : "The Importance of Automating Internal Corporate Systems",
     "systemTitle2" : "Practical Tips and Best Practices",
-    "systemTitle3": "Final Thoughts and Further Development Opportunities"
+    "systemTitle3": "Final Thoughts and Further Development Opportunities",
+
+    "contactTitle" : "Send us a message"
   },
 
   "CtaForm" : {
@@ -411,8 +413,8 @@
     "fourthSubtitle" : "Request a free consultation and quote today, and begin the custom website development process!",
     "fourthButton" : "Request a Free Estimate",
 
-    "fifthTitle" : "Ready for Automation?",
-    "fifthSubtitle" : "Our team of experts can help you automate your internal systems. During a free consultation, we’ll assess your unique needs and recommend the most suitable automation solutions.",
-    "fifthButton" : "Request a Free Consultation"
+    "fifthTitle" : "Ready to take your efficiency to the next level?",
+    "fifthSubtitle" : "Our team will help you identify where your processes can be optimized or made more efficient through our systems and custom-built solutions.",
+    "fifthButton" : "Consultation"
   }
 }

@@ -391,7 +391,9 @@
 
     "systemTitle" : "A belső céges rendszerek automatizálásának jelentősége",
     "systemTitle2" : "Gyakorlati tippek és best practice-ek",
-    "systemTitle3" : "Záró gondolatok és további fejlesztési lehetőségek"
+    "systemTitle3" : "Záró gondolatok és további fejlesztési lehetőségek",
+
+    "contactTitle" : "Küldj üzenetet"
   },
 
   "CtaForm" : {
@@ -411,9 +413,9 @@
     "fourthSubtitle" : "Kérjen ingyenes konzultációt és árajánlatot most, és kezdje el az egyedi weboldal készítés folyamatát!",
     "fourthButton" : "Ingyenes ajánlatkérés",
 
-    "fifthTitle" : "Készen áll az automatizálásra?",
-    "fifthSubtitle" : "Szakértői csapatunk segít Önnek a belső rendszerek automatizálásában. Ingyenes konzultációnk során felmérjük az Ön egyedi igényeit és javaslatot teszünk a legmegfelelőbb automatizálási megoldásokra.",
-    "fifthButton" : "Ingyenes konzultáció"
+    "fifthTitle" : "Készen állsz, hogy a következő szintre emeljük hatékonyságod?",
+    "fifthSubtitle" : "Csapatunk segít azonosítani, hol lehetne optimalizálni vagy hatékonyabbá tenni folyamatait rendszereink segítségével, egyedi megoldásainkkal.",
+    "fifthButton" : "Konzultáció"
   }
 
 

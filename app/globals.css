@@ -17,7 +17,7 @@
   }
 
   .cta-button {
-    @apply px-8 py-2 rounded-lg flex items-center justify-center font-bold  text-lg md:text-xl transition-all duration-300 hover:scale-105 text-center w-full max-w-sm mx-auto;
+    @apply px-8 py-2 rounded-full flex items-center justify-center font-bold  text-lg md:text-xl transition-all duration-300 hover:scale-105 text-center w-full max-w-sm mx-auto;
   }
 
   .animate-thing {
@@ -66,6 +66,10 @@
 
   .hero-sub {
     @apply mt-20 text-center text-3xl lg:text-5xl font-bold bg-gradient-to-b from-white to-gray-600 bg-clip-text text-transparent leading-tight pb-2;
+  }
+
+  .input-form {
+    @apply bg-white/5 backdrop-blur-md hover:bg-white/10;
   }
 }
 

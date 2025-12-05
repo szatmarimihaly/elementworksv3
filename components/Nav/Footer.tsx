@@ -15,7 +15,7 @@ const Footer = ({ locale } : Props) => {
 
   return (
     <div className='main-comp pb-10'>
-        <div className='flex flex-col gap-4 items-center lg:flex-row lg:items-start lg:justify-between '>
+        <div className='flex flex-col gap-4 items-center lg:flex-row lg:items-start lg:justify-evenly '>
             <Image
             src='/new2.png'
             alt='ELEMENTWORKS logó a láblécben – weboldal fejlesztő cég'
@@ -24,16 +24,6 @@ const Footer = ({ locale } : Props) => {
             priority
             className='mb-10 lg:mb-0'
             />
-
-            <div className='footer-item'>
-                <h4 className='footer-h3'>{t('cat1')}</h4>
-                <ul className='flex flex-col items-center footer-list gap-4'>
-                    <Link href={`/${locale}`} className='item'>{t("page1")}</Link>
-                    <Link href={`/${locale}/szolgaltatasok`} className='item'>{t("page2")}</Link>
-                    <Link href={`/${locale}/blog`} className='item'>{t("page3")}</Link>
-                    <Link href={`/${locale}/kapcsolat`} className='item'>{t("page4")}</Link>
-                </ul>
-            </div>
 
             <div className='footer-item'>
                 <h4 className='footer-h3'>{t('cat2')}</h4>

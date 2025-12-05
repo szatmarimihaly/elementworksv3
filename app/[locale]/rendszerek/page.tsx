@@ -142,7 +142,7 @@ export default async function Page({ params } : Params) {
             </section>
 
             <Cta
-              title={t("CtaForm.firstTitle")}
+              title={t("CtaForm.fifthTitle")}
               subtitle={t("CtaForm.fifthSubtitle")}
               button={t("CtaForm.fifthButton")}
               href={`/${locale}/kapcsolat`}

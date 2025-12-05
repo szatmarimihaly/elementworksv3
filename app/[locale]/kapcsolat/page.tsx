@@ -1,7 +1,10 @@
 import Hero from "@/components/Hero/Hero"
 import ContactBox from "@/components/Visual/ContactBox"
+import SendForm from "@/components/Visual/SendForm"
 import type { Metadata } from  "next"
 import { getTranslations } from "next-intl/server"
+import SubHero from "@/components/Hero/SubHero"
+import Line from "@/components/Visual/Line"
 
 type Params = {
   params : { locale : string }
@@ -87,6 +90,12 @@ export default async function Page({ params } : Params){
       </section>
       
       <ContactBox text={t('ContactText.call')}/>
+
+      <SubHero text={t('SmallHero.contactTitle')}/>
+      <Line/>
+      <SendForm/>
+
+
     </main>
   )
 }
