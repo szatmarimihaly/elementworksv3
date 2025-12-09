@@ -36,7 +36,13 @@
     "contactSubtitle": "Choose fast and direct communication! Our experts are ready to assist you with any web development–related questions.",
 
     "systemTitle" : "Corporate System Development and Automation",
-    "systemDescription" : "Digitizing and automating manual processes significantly increases efficiency — and that’s exactly where we can help."
+    "systemDescription" : "Digitizing and automating manual processes significantly increases efficiency — and that’s exactly where we can help.",
+
+    "privacyTitle" : "Privacy Policy",
+    "privacySubtitle" : "Learn how we handle your data and how we ensure the protection of your information throughout our web development services.",
+
+    "blogTitle" : "Web Development Insights and Digital Solutions",
+    "blogDescription" : "Explore articles about web development, corporate websites and modern digital solutions. Guides, insights and professional tips — all in one place."
   },
 
   "Button" : {
@@ -422,5 +428,21 @@
     "button" : "Send Message",
     "message" : "Your message here...",
     "name" : "Albert Einstein"
+  },
+
+  "Privacy" : {
+    "data_text1": "Protecting your personal data is extremely important to us. Through the contact form on our website, we collect only the essential information: your name, email address, and the content of your message. We use this data solely to respond to your inquiry, provide a quote, or deliver the services you have requested. The data you provide is stored only for as long as the client relationship exists, or until the inquiry has been fully processed. We do not share your data with third parties unless we are legally required to do so, for example in the case of invoicing or a request from authorities.",
+    "data_text2": "We do not collect sensitive personal data and we do not use automated decision-making or profiling. All data processing is conducted in full compliance with the General Data Protection Regulation (GDPR). You have the right to access your data, request correction or deletion, restrict data processing, and file a complaint with your national data protection authority.",
+    "data_text3": "Our website only uses essential technical cookies that are required for proper operation. We do not use third-party tracking or marketing cookies. If you have any questions regarding our data processing practices, please contact us using the details provided on the website.",
+    "data_text4": "This privacy notice complies with current data protection regulations and is tailored to the nature of the services we provide.",
+
+    "ctaTitle": "Do you have any questions you'd like to share with us?",
+    "ctaSubtitle": "Contact our team using the phone number provided on the contact page, or fill out the inquiry form so we can get back to you as soon as possible.",
+    "ctaButton": "I have a question"
+  },
+
+  "Blog" : {
+    "notFound" : "No blog posts found.",
+    "backToBlog" : "Back"
   }
 }

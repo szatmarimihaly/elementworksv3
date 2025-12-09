@@ -5,5 +5,9 @@ import { routing } from './i18n/routing';
 export default createMiddleware(routing);
 
 export const config = {
-  matcher: ['/', '/(en|hu)/:path*']
+  matcher: [
+    '/',
+    '/(en|hu)/:path*',
+    '/((?!studio|api|_next|_vercel|.*\\..*).*)'  // Exclude /studio and other system routes
+  ]
 };

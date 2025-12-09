@@ -36,7 +36,13 @@
     "contactSubtitle" : "Válassza a gyors és közvetlen kapcsolatfelvételt! Szakértőink készséggel állnak rendelkezésére bármilyen webfejlesztéssel kapcsolatos kérdésben.",
 
     "systemTitle" : "Céges rendszerek fejlesztése és automatizálás",
-    "systemDescription" : "A manuális folyamatok digitalizálása és automatizálása jelentősen növeli a hatékonyságot, mi ebben segítünk."
+    "systemDescription" : "A manuális folyamatok digitalizálása és automatizálása jelentősen növeli a hatékonyságot, mi ebben segítünk.",
+
+    "privacyTitle" : "Adatvédelmi tájékoztató",
+    "privacySubtitle" : "Ismerje meg, hogyan kezeljük adatait, és hogyan biztosítjuk webfejlesztési szolgáltatásaink során az Ön adatainak védelmét.",
+
+    "blogTitle" : "Webfejlesztés, tippek és digitális megoldások",
+    "blogDescription" : "Fedezze fel webfejlesztéssel, céges weboldalakkal és modern digitális megoldásokkal kapcsolatos cikkeinket. Inspirációk, útmutatók és szakmai tanácsok egy helyen."
   },
 
   "Button" : {
@@ -422,7 +428,21 @@
     "button" : "Üzenet elküldése",
     "message" : "Írd meg az üzenetet...",
     "name" : "Albert Einstein"
+  },
+
+  "Privacy" : {
+    "data_text1": "Az Ön személyes adatainak védelme kiemelten fontos számunkra. A weboldalunkon található kapcsolatfelvételi űrlap segítségével csak a legszükségesebb adatokat gyűjtjük be: nevet, e-mail címet és az Ön üzenetének tartalmát. Ezeket az adatokat kizárólag arra használjuk, hogy válaszolhassunk a megkeresésére, ajánlatot adhassunk, illetve teljesíteni tudjuk a megrendelt szolgáltatásokat. Az Ön által megadott adatokat csak addig tároljuk, ameddig az ügyfélkapcsolat fennáll, vagy amíg az adott megkeresés feldolgozása meg nem történik. Nem továbbítjuk ezeket az adatokat harmadik félnek, kivéve, ha erre jogszabály kötelez bennünket, például számlázás vagy hatósági megkeresés esetén.",
+    "data_text2": "Nem gyűjtünk érzékeny adatokat, és nem alkalmazunk automatizált döntéshozatalt vagy profilalkotást. Az Ön adatainak kezelése minden esetben a GDPR szabályozásainak megfelelően történik. Önt megilleti a jog arra, hogy hozzáférjen saját adataihoz, kérheti azok helyesbítését, törlését, az adatkezelés korlátozását, valamint panaszt tehet a Nemzeti Adatvédelmi és Információszabadság Hatóságnál (NAIH).",
+    "data_text3": "A weboldalunk kizárólag a működéséhez elengedhetetlen technikai cookie-kat használ. Nem alkalmazunk harmadik féltől származó marketing célú vagy nyomkövető sütiket. Amennyiben bármilyen kérdése van az adatkezeléssel kapcsolatban, kérjük, vegye fel velünk a kapcsolatot az oldalon feltüntetett elérhetőségeken keresztül.",
+    "data_text4": "Ez a tájékoztató megfelel a hatályos adatvédelmi szabályozásnak, és az általunk nyújtott szolgáltatások jellegéhez igazodik.",
+
+    "ctaTitle" : "Bármi kérdése van, amit megosztana velünk?",
+    "ctaSubtitle" : "Keresse kollégáinkat a kapcsolat oldalon megadott telefonszámon, vagy töltse ki a megkeresési mezőket, hogy a kollégák mielőbb felvehessék Önnel a kapcsolatot.",
+    "ctaButton" : "Kérdésem van"
+  },
+
+  "Blog" : {
+    "notFound" : "Nincs megjeleníthető blog poszt.",
+    "backToBlog" : "Vissza"
   }
-
-
 }

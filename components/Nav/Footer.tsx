@@ -39,7 +39,7 @@ const Footer = ({ locale } : Props) => {
                 <ul className='flex flex-col items-center footer-list gap-4'>
                     <Link href={`https://github.com/szatmarimihaly`} className='item'>{t("page8")}</Link>
                     <Link href={`https://www.instagram.com/elementworksgroup/`} className='item'>{t("page9")}</Link>
-                    <Link href={`/${locale}/adatvedelem`} className='item'>{t("page7")}</Link>
+                    <Link href={`/${locale}/kapcsolat`} className='item'>{t("page7")}</Link>
                 </ul>
             </div>
         </div>
