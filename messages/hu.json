@@ -318,7 +318,7 @@
 
     {
       "id" : 3,
-      "title" : "Riportrendszerek fejlszetése",
+      "title" : "Riportrendszerek fejlesztése",
       "subtitle" : "Az automatizált riportrendszerek előre meghatározott időközönként generálnak és terjesztenek jelentéseket, kiküszöbölve a manuális riportkészítés szükségességét. Ezek a rendszerek különböző formátumokban (PDF, Excel, interaktív web) készíthetnek jelentéseket.",
       "image" : "riport",
       "path" : "system",
