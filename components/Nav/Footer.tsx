@@ -17,7 +17,7 @@ const Footer = ({ locale } : Props) => {
     <div className='main-comp pb-10'>
         <div className='flex flex-col gap-4 items-center lg:flex-row lg:items-start lg:justify-evenly '>
             <Image
-            src='/new2.png'
+            src='/4.svg'
             alt='ELEMENTWORKS logó a láblécben – weboldal fejlesztő cég'
             width={200}
             height={200}

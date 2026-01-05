@@ -41,13 +41,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      url: `https://elementworksv3.vercel.app/${locale}/szolgaltatasok`,
+      url: `https://elementworks.eu/${locale}/szolgaltatasok`,
       siteName: 'Elementworks',
       locale: locale === 'hu' ? 'hu_HU' : 'en_US',
       type: 'website',
       images: [
         {
-          url: 'https://elementworksv3.vercel.app/new2.png',
+          url: 'https://elementworks.eu/4.svg',
           width: 1200,
           height: 630,
           alt: title,
@@ -59,15 +59,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title,
       description,
-      images: ['https://elementworksv3.vercel.app/new2.png'],
+      images: ['https://elementworks.eu/4.svg'],
     },
     
     alternates: {
-      canonical: `https://elementworksv3.vercel.app/${locale}/szolgaltatasok`,
+      canonical: `https://elementworks.eu/${locale}/szolgaltatasok`,
       languages: {
-        'hu': 'https://elementworksv3.vercel.app/hu/szolgaltatasok',
-        'en': 'https://elementworksv3.vercel.app/en/szolgaltatasok',
-        'x-default': 'https://elementworksv3.vercel.app/hu/szolgaltatasok',
+        'hu': 'https://elementworks.eu/hu/szolgaltatasok',
+        'en': 'https://elementworks.eu/en/szolgaltatasok',
+        'x-default': 'https://elementworks.eu/hu/szolgaltatasok',
       },
     },
     

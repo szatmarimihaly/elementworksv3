@@ -4,7 +4,7 @@ import type { MetadataRoute } from 'next';
  * Robots.ts for ElementWorks V3
  * Location: app/robots.ts
  * 
- * Accessible at: https://elementworksv3.vercel.app/robots.txt
+ * 
  */
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -18,6 +18,6 @@ export default function robots(): MetadataRoute.Robots {
         ],
       },
     ],
-    sitemap: 'https://elementworksv3.vercel.app/sitemap.xml',
+    sitemap: 'https://elementworks.eu/sitemap.xml',
   };
 }

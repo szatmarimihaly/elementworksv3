@@ -32,13 +32,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      url: `https://elementworksv3.vercel.app/${locale}/kapcsolat`,
+      url: `https://elementworks.eu/${locale}/kapcsolat`,
       siteName: 'Elementworks',
       locale: locale === 'hu' ? 'hu_HU' : 'en_US',
       type: 'website',
       images: [
         {
-          url: 'https://elementworksv3.vercel.app/new2.png',
+          url: 'https://elementworks.eu/4.svg',
           width: 1200,
           height: 630,
           alt: title,
@@ -50,15 +50,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title,
       description,
-      images: ['https://elementworksv3.vercel.app/new2.png'],
+      images: ['https://elementworks.eu/4.svg'],
     },
     
     alternates: {
-      canonical: `https://elementworksv3.vercel.app/${locale}/kapcsolat`,
+      canonical: `https://elementworks.eu/${locale}/kapcsolat`,
       languages: {
-        'hu': 'https://elementworksv3.vercel.app/hu/kapcsolat',
-        'en': 'https://elementworksv3.vercel.app/en/kapcsolat',
-        'x-default': 'https://elementworksv3.vercel.app/hu/kapcsolat',
+        'hu': 'https://elementworks.eu/hu/kapcsolat',
+        'en': 'https://elementworks.eu/en/kapcsolat',
+        'x-default': 'https://elementworks.eu/hu/kapcsolat',
       },
     },
     

@@ -31,13 +31,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      url: `https://elementworksv3.vercel.app/${locale}/adatvedelem`,
+      url: `https://elementworks.eu/${locale}/adatvedelem`,
       siteName: 'Elementworks',
       locale: locale === 'hu' ? 'hu_HU' : 'en_US',
       type: 'website',
       images: [
         {
-          url: 'https://elementworksv3.vercel.app/new2.png',
+          url: 'https://elementworks.eu/4.svg',
           width: 1200,
           height: 630,
           alt: title,
@@ -49,15 +49,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title,
       description,
-      images: ['https://elementworksv3.vercel.app/new2.png'],
+      images: ['https://elementworks.eu/4.svg'],
     },
     
     alternates: {
-      canonical: `https://elementworksv3.vercel.app/${locale}/adatvedelem`,
+      canonical: `https://elementworks.eu/${locale}/adatvedelem`,
       languages: {
-        'hu': 'https://elementworksv3.vercel.app/hu/adatvedelem',
-        'en': 'https://elementworksv3.vercel.app/en/adatvedelem',
-        'x-default': 'https://elementworksv3.vercel.app/hu/adatvedelem',
+        'hu': 'https://elementworks.eu/hu/adatvedelem',
+        'en': 'https://elementworks.eu/en/adatvedelem',
+        'x-default': 'https://elementworks.eu/hu/adatvedelem',
       },
     },
     

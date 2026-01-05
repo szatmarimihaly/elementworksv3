@@ -9,7 +9,7 @@ import type { MetadataRoute } from "next";
  */
 export default function sitemap(): MetadataRoute.Sitemap {
   const today = new Date();
-  const baseUrl = 'https://elementworksv3.vercel.app';
+  const baseUrl = 'https://elementworks.eu';
 
   return [
     // ========================================
@@ -68,6 +68,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
           'x-default': `${baseUrl}/hu/szolgaltatasok`,
           hu: `${baseUrl}/hu/szolgaltatasok`,
           en: `${baseUrl}/en/szolgaltatasok`,
+        },
+      },
+    },
+
+    // ========================================
+    // SZOLGALTATASOK / SERVICES
+    // ========================================
+    {
+      url: `${baseUrl}/hu/rendszerek`,
+      lastModified: today,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+      alternates: {
+        languages: {
+          'x-default': `${baseUrl}/hu/rendszerek`,
+          hu: `${baseUrl}/hu/rendszerek`,
+          en: `${baseUrl}/en/rendszerek`,
+        },
+      },
+    },
+    {
+      url: `${baseUrl}/en/rendszerek`,
+      lastModified: today,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+      alternates: {
+        languages: {
+          'x-default': `${baseUrl}/hu/rendszerek`,
+          hu: `${baseUrl}/hu/rendszerek`,
+          en: `${baseUrl}/en/rendszerek`,
         },
       },
     },
