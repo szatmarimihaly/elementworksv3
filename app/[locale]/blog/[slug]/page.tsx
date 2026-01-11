@@ -73,7 +73,7 @@ export default async function Page({ params } : Props) {
   }
 
   return(
-    <main className="">
+    <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4 lg:mt-10">
       <Hero title={post.title} description={post.excerpt}/>
       <Line />
       <article className="flex flex-col items-center max-w-4xl mx-auto w-full mt-10">

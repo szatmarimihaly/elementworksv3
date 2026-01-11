@@ -84,7 +84,7 @@ export default async function Page({ params } : Params){
   const t = await getTranslations({ locale })
 
   return (
-    <main>
+    <main className="">
       <section className='hero-prop'>
         <Hero title={t('Hero.contactTitle')} description={t('Hero.contactSubtitle')} />
       </section>

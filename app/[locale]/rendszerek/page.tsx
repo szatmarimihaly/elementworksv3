@@ -91,7 +91,7 @@ export default async function Page({ params } : Params) {
     const t = await getTranslations({ locale })
 
     return(
-        <main>
+        <main className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4 lg:mt-10'>
             <section className='hero-prop'>
                 <Hero title={t('Hero.systemTitle')} description={t('Hero.systemDescription')}/>
             </section>

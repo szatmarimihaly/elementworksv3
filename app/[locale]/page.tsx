@@ -90,7 +90,7 @@ export default async function Page({ params }: { params: { locale: Locale } }) {
   const t = await getTranslations({ locale });
 
   return (
-    <main className='flex flex-col items-center'>
+    <main className='flex flex-col items-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4 lg:mt-10'>
       <section className='hero-prop'>
         <Hero title={t('Hero.title')} description={t('Hero.description')} />
       </section>

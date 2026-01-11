@@ -1,7 +1,27 @@
 @import "tailwindcss";
 @tailwind utilities;
 
+
 @layer utilities {
+
+  .animate-infinite-scroll {
+    animation: infinite-scroll 60s linear infinite;
+  }
+
+  .animate-infinite-scroll:hover {
+    animation-play-state: paused;
+  }
+
+  @keyframes infinite-scroll {
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
   .glow-text {
     color: #fff;
     text-shadow: 0 0 10px #fff; /* x, y, blur, color */

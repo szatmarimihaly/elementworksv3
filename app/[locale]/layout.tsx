@@ -54,9 +54,7 @@ export default async function LocaleLayout({
             <Navbar locale={locale}/>
           </header>
 
-          <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4 lg:mt-10'>
-            {children}
-          </div>
+          {children}
 
           <footer className='mt-20'>
             <Footer locale={locale}/>

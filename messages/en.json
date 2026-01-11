@@ -42,7 +42,10 @@
     "privacySubtitle" : "Learn how we handle your data and how we ensure the protection of your information throughout our web development services.",
 
     "blogTitle" : "Web Development Insights and Digital Solutions",
-    "blogDescription" : "Explore articles about web development, corporate websites and modern digital solutions. Guides, insights and professional tips — all in one place."
+    "blogDescription" : "Explore articles about web development, corporate websites and modern digital solutions. Guides, insights and professional tips — all in one place.",
+
+    "landingTitle" : "Why Does Your Business Need a Premium Website?",
+    "landingSubtitle" : "A premium website builds trust, strengthens your brand, and supports business growth. Discover why a professional online presence is essential today."
   },
 
   "Button" : {
@@ -50,7 +53,8 @@
     "ctaContact" : "Contact",
     "ctaToServices" : "Read More",
     "ctaServices" : "Free Consultation",
-    "ctaSystem" : "Let's Automate Together!"
+    "ctaSystem" : "Let's Automate Together!",
+    "ctaLanding" : "Schedule a free consultation!" 
   },
 
   "MainText" : {
