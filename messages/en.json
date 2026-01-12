@@ -45,7 +45,10 @@
     "blogDescription" : "Explore articles about web development, corporate websites and modern digital solutions. Guides, insights and professional tips — all in one place.",
 
     "landingTitle" : "Why Does Your Business Need a Premium Website?",
-    "landingSubtitle" : "A premium website builds trust, strengthens your brand, and supports business growth. Discover why a professional online presence is essential today."
+    "landingSubtitle" : "A premium website builds trust, strengthens your brand, and supports business growth. Discover why a professional online presence is essential today.",
+
+    "promotionTitle": "Join the Elementworks promotional opportunity!",
+    "promotionSubtitle": "Take part in the Elementworks promotion and claim your exclusive reward or benefit."
   },
 
   "Button" : {
@@ -431,7 +434,10 @@
   "FormContent" : {
     "button" : "Send Message",
     "message" : "Your message here...",
-    "name" : "Albert Einstein"
+    "name" : "Albert Einstein",
+    "promo" : "Promotion code",
+    "resultOk" : "Successfully registered, we sent you the code to your e-mail!",
+    "resultFail" : "Something went wrong!"
   },
 
   "Privacy" : {

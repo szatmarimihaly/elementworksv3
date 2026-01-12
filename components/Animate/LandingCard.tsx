@@ -31,13 +31,13 @@ export default async function LandingCard({ locale, text } : Props) {
         {duplicatedServices.map((item : LandingCardProps, index : number) => (
           <div 
             key={`${item.id} - ${index}`}
-            className='flex items-center justify-center gap-4 min-w-[400px] border-2 border-gray-400/40 hover:border-gray-200/70 px-4 py-2 rounded animate-thing border-gray gray-back'
+            className='flex flex-col items-center justify-center gap-4 min-w-[300px] border-2 border-gray-400/40 hover:border-gray-200/70 py-4 rounded animate-thing border-gray gray-back shadow-[0_0_16px_rgba(255, 255, 255, 1)]'
           >
             <Image
               src={`/${item.path}/${item.image}.svg`}
               alt={`${item.imagedescription}`}
-              width={30}
-              height={30}
+              width={50}
+              height={50}
             />
             <h3 className='text-md font-bold'>{item.title}</h3>
           </div>       

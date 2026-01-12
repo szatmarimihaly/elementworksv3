@@ -83,7 +83,7 @@ export default async function Page({ params } : Params) {
     const t = await getTranslations({ locale });
 
   return (
-    <main className='flex flex-col items-center gap-10 overflow-x-hidden px-4 sm:px-6 lg:px-8 mt-4 lg:mt-10'>
+    <main className='flex flex-col items-center gap-10 overflow-x-hidden px-4 sm:px-6 lg:px-8 mt-10 lg:mt-10'>
         <Hero title={t("Hero.landingTitle")} description={t("Hero.landingSubtitle")} />
         <LandingCta text={t("Button.ctaLanding")}/>
         <LandingCard locale={locale} text="servicecard"/>

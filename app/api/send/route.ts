@@ -17,6 +17,7 @@ export async function POST(request: NextRequest) {
     const email = formData.get('email') as string;
     const tel = formData.get('tel') as string;
     const message = formData.get('message') as string;
+    const promo = formData.get('promo') as string;
 
     await resend.emails.send({
       from: 'ELEMENTWORKS <no-reply@elementworks.eu>',
@@ -32,6 +33,7 @@ export async function POST(request: NextRequest) {
             <p style="color: #666; margin: 5px 0;"><strong>Név:</strong> ${name}</p>
             <p style="color: #666; margin: 5px 0;"><strong>Email:</strong> ${email}</p>
             <p style="color: #666; margin: 5px 0;"><strong>Telefon:</strong> ${tel}</p>
+            <p style="color: #666; margin: 5px 0;"><strong>Promó kód:</strong> ${promo}</p>
             <p style="color: #666; margin: 5px 0; white-space: pre-wrap;"><strong>Üzenet:</strong> ${message}</p>
           </div>
           <p style="color: #666; line-height: 1.6;">Üdvözlettel,<br><strong>Az ELEMENTWORKS Csapat</strong></p>

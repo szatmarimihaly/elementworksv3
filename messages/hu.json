@@ -45,7 +45,10 @@
     "blogDescription" : "Fedezze fel webfejlesztéssel, céges weboldalakkal és modern digitális megoldásokkal kapcsolatos cikkeinket. Inspirációk, útmutatók és szakmai tanácsok egy helyen.",
 
     "landingTitle" : "Miért van szüksége egy vállalkozásnak prémium weboldalra?",
-    "landingSubtitle" : "Egy prémium weboldal bizalmat épít, erősíti a márkát és támogatja az üzleti növekedést. Ismerje meg, miért elengedhetetlen a profi online jelenlét."
+    "landingSubtitle" : "Egy prémium weboldal bizalmat épít, erősíti a márkát és támogatja az üzleti növekedést. Ismerje meg, miért elengedhetetlen a profi online jelenlét.",
+
+    "promotionTitle": "Csatlakozz az Elementworks promóciós lehetőségéhez!",
+    "promotionSubtitle": "Vegyél részt az Elementworks promóciójában, és szerezd meg exkluzív jutalmadat vagy kedvezményedet."
   },
 
   "Button" : {
@@ -431,7 +434,10 @@
   "FormContent" : {
     "button" : "Üzenet elküldése",
     "message" : "Írd meg az üzenetet...",
-    "name" : "Albert Einstein"
+    "name" : "Albert Einstein",
+    "promo" : "Promóciós-kódod",
+    "resultOk" : "Sikeres regisztráció, a kódot elküldtük e-mailben!",
+    "resultFail" : "Sikertelen regisztráció!"
   },
 
   "Privacy" : {

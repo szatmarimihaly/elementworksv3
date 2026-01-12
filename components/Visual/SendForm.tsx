@@ -6,9 +6,10 @@ type Props = {
     text : string,
     textPlace : string,
     namePlace : string
+    promo : string
 }
 
-export default function SendForm({ text, textPlace, namePlace } : Props) {
+export default function SendForm({ text, textPlace, namePlace, promo } : Props) {
   const [status, setStatus] = useState("");
   const [loading, setLoading] = useState(false);
 
@@ -58,6 +59,12 @@ export default function SendForm({ text, textPlace, namePlace } : Props) {
         type="tel"
         placeholder="+36305771066"
         required
+        className="bg-white/5 px-4 py-2 rounded-xl border-2 border-gray-400/40 w-full max-w-md"
+      />
+      <input
+        name="promo"
+        type="text"
+        placeholder={promo}
         className="bg-white/5 px-4 py-2 rounded-xl border-2 border-gray-400/40 w-full max-w-md"
       />
       <textarea
