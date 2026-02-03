@@ -8,8 +8,8 @@ import { useState } from 'react'
 import Link from 'next/link'
 import LanguageSwitcher from '../Button/LanguageSwitcher'
 
-import KeyboardArrowRightOutlinedIcon from '@mui/icons-material/KeyboardArrowRightOutlined';
-import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined';
+import { ChevronRight, ChevronDown } from "lucide-react";
+
 
 const SUPPORTED_LOCALES = ['en', 'hu']
 
@@ -70,11 +70,11 @@ const Navbar = ({ locale } : Props) => {
                             onClick={() => setServicesOpen(!servicesOpen)}
                         >
                             {t('services')} 
-                            {servicesOpen ? <KeyboardArrowDownOutlinedIcon/> : <KeyboardArrowRightOutlinedIcon/>}
+                            {servicesOpen ? <ChevronDown/> : <ChevronRight/>}
                         </button>
 
                         {servicesOpen && (
-                            <div className='absolute top-full left-0 mt-2 flex flex-col space-y-2 gray-back p-2 rounded-xl'>
+                            <div className='absolute top-full left-0 mt-2 flex flex-col space-y-2 p-2 rounded-xl'>
                                 <Link 
                                     href={`/${locale}/szolgaltatasok`} 
                                     className='text-gray-400 transition-all duration-300 hover:text-white'
@@ -103,11 +103,11 @@ const Navbar = ({ locale } : Props) => {
                             onClick={() => setContactOpen(!contactOpen)}
                         >
                             {t('contact')} 
-                            {contactOpen ? <KeyboardArrowDownOutlinedIcon/> : <KeyboardArrowRightOutlinedIcon/>}
+                            {contactOpen ? <ChevronDown/> : <ChevronRight/>}
                         </button>
 
                         {contactOpen && (
-                            <div className='absolute top-full left-0 mt-2 flex flex-col space-y-2 gray-back p-2 rounded-xl'>
+                            <div className='absolute top-full left-0 mt-2 flex flex-col space-y-2'>
                                 <Link 
                                     href={`/${locale}/promocio`} 
                                     className='text-gray-400 transition-all duration-300 hover:text-white'
@@ -153,7 +153,7 @@ const Navbar = ({ locale } : Props) => {
                                 }}
                             >
                                 {t('services')} 
-                                {servicesOpen ? <KeyboardArrowDownOutlinedIcon/> : <KeyboardArrowRightOutlinedIcon/>}
+                                {servicesOpen ? <ChevronDown/> : <ChevronRight/>}
                             </button>
 
                             {servicesOpen && (
@@ -195,7 +195,7 @@ const Navbar = ({ locale } : Props) => {
                                 }}
                             >
                                 {t('contact')} 
-                                {contactOpen ? <KeyboardArrowDownOutlinedIcon/> : <KeyboardArrowRightOutlinedIcon/>}
+                                {contactOpen ? <ChevronDown/> : <ChevronRight/>}
                             </button>
 
                             {contactOpen && (

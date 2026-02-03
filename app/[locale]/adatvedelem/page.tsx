@@ -75,6 +75,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+export async function generateStaticParams() {
+  return [
+    { locale: "en" },
+    { locale: "hu" }
+  ]
+}
+
 
 export default async function Page({ params } : Params) {
 
@@ -82,7 +89,7 @@ export default async function Page({ params } : Params) {
   const t = await getTranslations({ locale })
 
   return (
-    <main>
+    <main className="flex flex-col items-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4 lg:mt-10">
       <section className="hero-prop">
         <Hero title={t('Hero.privacyTitle')} description={t('Hero.privacySubtitle')}/>
         <Line/>

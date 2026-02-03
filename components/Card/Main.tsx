@@ -1,8 +1,6 @@
 import React from 'react'
 import { getTranslations } from 'next-intl/server'
-import SpeedIcon from '@mui/icons-material/Speed'
-import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates'
-import SafetyCheckIcon from '@mui/icons-material/SafetyCheck'
+import { Gauge, Lightbulb, ShieldCheck } from 'lucide-react'
 import ToServices from '../Button/ToServices'
 
 interface MainCard {
@@ -18,9 +16,9 @@ type Props = {
 }
 
 const iconMap: Record<string, React.ElementType> = {
-    speed: SpeedIcon,
-    tips: TipsAndUpdatesIcon,
-    safe: SafetyCheckIcon
+    speed: Gauge,        // Replaces SpeedIcon
+    tips: Lightbulb,     // Replaces TipsAndUpdatesIcon
+    safe: ShieldCheck    // Replaces SafetyCheckIcon
 }
 
 const Main = async ({ locale, text} : Props) => {
@@ -43,7 +41,7 @@ const Main = async ({ locale, text} : Props) => {
                 className='flex flex-col gap-6 border-2 border-gray-400/40 hover:border-gray-200/70 px-4 py-10 rounded-xl animate-thing border-gray gray-back'
             >
                 <div className='p-2 bg-white rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto'>
-                    {IconComponent && <IconComponent sx={{ fontSize : 50, color : 'black' }} />}
+                    {IconComponent && <IconComponent size={50} className="text-black" />}
                 </div>
                 <h2 className='card-title'>{item.title}</h2>
                 <p className='card-subtitle'>{item.subtitle}</p>

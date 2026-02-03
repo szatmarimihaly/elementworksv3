@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react"
-import CircularProgress from '@mui/material/CircularProgress'
 
 type Props = {
     text : string,
@@ -80,7 +79,7 @@ export default function SendForm({ text, textPlace, namePlace, promo } : Props) 
         disabled={loading}
         className="bg-white text-black px-10 py-2 font-bold rounded transition-all duration-300 hover:bg-white/80"
       >
-        {loading ? <CircularProgress size={20} sx={{ color: "black" }} /> : `${text}`}
+        {loading ? <p>Sending...</p> : `${text}`}
       </button>
 
       {status && (

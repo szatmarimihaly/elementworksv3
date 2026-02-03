@@ -74,7 +74,6 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   };
 }
 
-
 export default async function Page({ params } : Props) {
 
 

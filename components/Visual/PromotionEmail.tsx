@@ -1,9 +1,7 @@
 'use client';
 
-import SpinnerWhite from "./SpinnerBlack";
 import { useState } from "react";
 import { getTranslations } from "next-intl/server";
-import SpinnerBlack from "./SpinnerBlack";
 
 type Props = {
     resultOk : string,
@@ -80,7 +78,7 @@ export default function PromotionEmail({ resultOk, resultFail } : Props){
                     onClick={handleSubmit}
                     disabled={isLoading || !email}
                 >
-                    {isLoading ? <SpinnerBlack/> : "Promóció"}
+                    {isLoading ? <p>Loading...</p> : "Promóció"}
                 </button>
             </div>
         </div>
