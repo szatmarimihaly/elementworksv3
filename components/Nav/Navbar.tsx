@@ -6,8 +6,10 @@ import { useTranslations } from 'next-intl'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 import Link from 'next/link'
-
 import LanguageSwitcher from '../Button/LanguageSwitcher'
+
+import KeyboardArrowRightOutlinedIcon from '@mui/icons-material/KeyboardArrowRightOutlined';
+import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined';
 
 const SUPPORTED_LOCALES = ['en', 'hu']
 
@@ -21,6 +23,9 @@ const Navbar = ({ locale } : Props) => {
 
     const [isOpen, setIsOpen] = useState(false)
     const pathname = usePathname()
+
+    const [servicesOpen, setServicesOpen] = useState(false);
+    const [contactOpen, setContactOpen] = useState(false);
 
     const toggleMenu = () => setIsOpen(!isOpen)
 
@@ -38,7 +43,7 @@ const Navbar = ({ locale } : Props) => {
         const isHome = path === '/' && SUPPORTED_LOCALES.some(locale => pathname === `/${locale}`)
 
         const isActive = isHome || normalizedPath === path
-        return `hover:text-gray-300 transition-all duration-300 ${isActive ? 'font-bold glow-text' : 'text-gray-300 font-bold'}`
+        return `hover:text-gray-300 transition-all duration-300 flex items-center text-xl ${isActive ? 'font-bold glow-text' : 'text-gray-300 font-bold'}`
     }
 
   return (
@@ -59,21 +64,67 @@ const Navbar = ({ locale } : Props) => {
                         {t('home')}
                     </Link>
 
-                    <Link href={`/${locale}/rendszerek`} className={getLinkClass('/rendszerek')}>
-                        {t('system')}
-                    </Link>
+                    <div className='relative'>
+                        <button 
+                            className='hover:text-gray-300 transition-all duration-300 flex items-center text-gray-300 font-bold' 
+                            onClick={() => setServicesOpen(!servicesOpen)}
+                        >
+                            {t('services')} 
+                            {servicesOpen ? <KeyboardArrowDownOutlinedIcon/> : <KeyboardArrowRightOutlinedIcon/>}
+                        </button>
 
-                    <Link href={`/${locale}/szolgaltatasok`} className={getLinkClass('/szolgaltatasok')}>
-                        {t('services')}
-                    </Link>
-
+                        {servicesOpen && (
+                            <div className='absolute top-full left-0 mt-2 flex flex-col space-y-2 gray-back p-2 rounded-xl'>
+                                <Link 
+                                    href={`/${locale}/szolgaltatasok`} 
+                                    className='text-gray-400 transition-all duration-300 hover:text-white'
+                                    onClick={() => setServicesOpen(false)}
+                                >
+                                    {t('services')}
+                                </Link>
+                                <Link 
+                                    href={`/${locale}/rendszerek`} 
+                                    className='text-gray-400 hover:text-gray-300 transition-colors'
+                                    onClick={() => setServicesOpen(false)}
+                                >
+                                    {t('system')}
+                                </Link>
+                            </div>
+                        )}
+                    </div>
+ 
                     <Link href={`/${locale}/blog`} className={getLinkClass('/blog')}>
                         {t('blog')}
                     </Link>
 
-                    <Link href={`/${locale}/kapcsolat`} className={getLinkClass('/kapcsolat')}>
-                        {t('contact')}
-                    </Link>
+                    <div className='relative'>
+                        <button 
+                            className='hover:text-gray-300 transition-all duration-300 flex items-center text-gray-300 font-bold' 
+                            onClick={() => setContactOpen(!contactOpen)}
+                        >
+                            {t('contact')} 
+                            {contactOpen ? <KeyboardArrowDownOutlinedIcon/> : <KeyboardArrowRightOutlinedIcon/>}
+                        </button>
+
+                        {contactOpen && (
+                            <div className='absolute top-full left-0 mt-2 flex flex-col space-y-2 gray-back p-2 rounded-xl'>
+                                <Link 
+                                    href={`/${locale}/promocio`} 
+                                    className='text-gray-400 transition-all duration-300 hover:text-white'
+                                    onClick={() => setContactOpen(false)}
+                                >
+                                    {t('promotion')}
+                                </Link>
+                                <Link 
+                                    href={`/${locale}/kapcsolat`} 
+                                    className='text-gray-400 hover:text-gray-300 transition-colors'
+                                    onClick={() => setContactOpen(false)}
+                                >
+                                    {t('contact')}
+                                </Link>
+                            </div>
+                        )}
+                    </div>
                 </div>
 
                 <div className='hidden lg:block'>
@@ -88,28 +139,94 @@ const Navbar = ({ locale } : Props) => {
             </div>
 
             {isOpen && (
-                    <div className='flex flex-col items-center space-y-8 mt-10 lg:hidden'>
+                    <div className='flex flex-col space-y-8 mt-10 lg:hidden'>
                         <Link href="/" onClick={() => setIsOpen(false)} className={getLinkClass("/")}>
                             {t('home')}
                         </Link>
 
-                        <Link href={`/${locale}/rendszerek`} onClick={() => setIsOpen(false)} className={getLinkClass("/rendszerek")}>
-                            {t('system')}
-                        </Link>
+                        <div className='relative'>
+                            <button 
+                                className='hover:text-gray-300 transition-all duration-300 flex items-center text-gray-300 font-bold text-xl' 
+                                onClick={() => {
+                                    setServicesOpen(!servicesOpen); 
+                                    
+                                }}
+                            >
+                                {t('services')} 
+                                {servicesOpen ? <KeyboardArrowDownOutlinedIcon/> : <KeyboardArrowRightOutlinedIcon/>}
+                            </button>
 
-                        <Link href={`/${locale}/szolgaltatasok`} onClick={() => setIsOpen(false)} className={getLinkClass("/szolgaltatasok")}>
-                            {t('services')}
-                        </Link>
+                            {servicesOpen && (
+                                <div className='flex flex-col space-y-2 mt-2 text-lg'>
+                                    <Link 
+                                        href={`/${locale}/szolgaltatasok`} 
+                                        className='text-gray-400 transition-all duration-300 hover:text-white'
+                                        onClick={() => {
+                                            setServicesOpen(false);
+                                            setIsOpen(!setIsOpen)
+                                        }}
+                                    >
+                                        {t('services')}
+                                    </Link>
+                                    <Link 
+                                        href={`/${locale}/rendszerek`} 
+                                        className='text-gray-400 hover:text-gray-300 transition-colors'
+                                        onClick={() => {
+                                            setServicesOpen(false);
+                                            setIsOpen(!setIsOpen)
+                                        }}
+                                    >
+                                        {t('system')}
+                                    </Link>
+                                </div>
+                            )}
+                        </div>
 
                         <Link href={`/${locale}/blog`} onClick={() => setIsOpen(false)} className={getLinkClass("/blog")}>
                             {t('blog')}
                         </Link>
 
-                        <Link href={`/${locale}/kapcsolat`} onClick={() => setIsOpen(false)} className={getLinkClass("/kapcsolat")}>
-                            {t('contact')}
-                        </Link>
+                        <div className='relative'>
+                            <button 
+                                className='hover:text-gray-300 transition-all duration-300 flex items-center text-gray-300 font-bold text-xl' 
+                                onClick={() => {
+                                    setContactOpen(!contactOpen); 
+                                    
+                                }}
+                            >
+                                {t('contact')} 
+                                {contactOpen ? <KeyboardArrowDownOutlinedIcon/> : <KeyboardArrowRightOutlinedIcon/>}
+                            </button>
 
-                        <LanguageSwitcher />
+                            {contactOpen && (
+                                <div className='flex flex-col space-y-2 mt-2 text-lg'>
+                                    <Link 
+                                        href={`/${locale}/promocio`} 
+                                        className='text-gray-400 transition-all duration-300 hover:text-white'
+                                        onClick={() => {
+                                            setContactOpen(false);
+                                            setIsOpen(!setIsOpen)
+                                        }}
+                                    >
+                                        {t('promotion')}
+                                    </Link>
+                                    <Link 
+                                        href={`/${locale}/kapcsolat`} 
+                                        className='text-gray-400 hover:text-gray-300 transition-colors'
+                                        onClick={() => {
+                                            setContactOpen(false);
+                                            setIsOpen(!setIsOpen)
+                                        }}
+                                    >
+                                        {t('contact')}
+                                    </Link>
+                                </div>
+                            )}
+                        </div>
+
+                        <div className='w-full flex items-center'>
+                            <LanguageSwitcher />
+                        </div>
                     </div>
                 )}
 

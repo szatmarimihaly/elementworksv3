@@ -8,6 +8,7 @@ import { notFound } from "next/navigation"
 import { getTranslations } from "next-intl/server"
 import Hero from "@/components/Hero/Hero"
 import Line from "@/components/Visual/Line"
+import { Metadata } from "next"
 
 type Props = {
   params : Promise<{
@@ -39,6 +40,101 @@ type BlogPost = {
     slug: { current: string }
   }>
   body?: any
+}
+
+function BlogStructuredData({ post, locale }: { post: BlogPost, locale: string }) {
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.excerpt,
+    image: post.mainImage ? urlFor(post.mainImage).url() : undefined,
+    datePublished: post.publishedAt,
+    author: {
+      '@type': 'Person',
+      name: post.author?.name || 'Unknown',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Elementworks',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://elementworks.eu/2.svg',
+      },
+    },
+  }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+    />
+  )
+}
+
+export async function generateMetadata({ params } : Props): Promise<Metadata> {
+  
+  const { locale, slug } = await params;
+
+  const post: BlogPost | null = await client.fetch(
+    groq`*[_type == "post" && slug.current == $slug && language == $language][0] {
+      _id,
+      title,
+      slug,
+      publishedAt,
+      excerpt,
+      mainImage,
+      author->{
+        name
+      },
+      categories[]->{
+        title
+      }
+    }`,
+    { slug, language: locale }
+  )
+
+  if (!post) {
+    return {
+      title: 'Post Not Found',
+      description: 'The requested blog post could not be found.'
+    }
+  }
+
+  const imageUrl = post.mainImage ? urlFor(post.mainImage).width(1200).height(630).url() : undefined;
+
+  return{
+    title : post.title,
+    description : post.excerpt,
+    authors : post.author?.name ? [{ name: post.author.name }] : undefined, 
+    openGraph : {
+      title : post.title,
+      description : post.excerpt,
+      publishedTime : post.publishedAt,
+      authors : post.author?.name ? [post.author.name] : undefined,
+      images : imageUrl ? [
+        {
+          url: imageUrl,
+          width: 1200,
+          height: 630,
+          alt: post.mainImage?.alt || post.title 
+        }
+      ] : undefined,
+    },
+    twitter : {
+      card : "summary_large_image",
+      title : post.title,
+      description : post.excerpt,
+      images : imageUrl ? [imageUrl] : undefined
+    },
+    alternates: {
+      canonical: `https://elementworks.eu/${locale}/blog/${slug}`,
+      languages: {
+        'hu': `https://elementworks.eu/hu/blog/${slug}`,
+        'en': `https://elementworks.eu/en/blog/${slug}`,
+      },
+    },
+  }
 }
 
 export default async function Page({ params } : Props) {
@@ -74,6 +170,7 @@ export default async function Page({ params } : Props) {
 
   return(
     <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4 lg:mt-10">
+      <BlogStructuredData post={post} locale={locale} />
       <Hero title={post.title} description={post.excerpt}/>
       <Line />
       <article className="flex flex-col items-center max-w-4xl mx-auto w-full mt-10">
@@ -166,7 +263,4 @@ export default async function Page({ params } : Props) {
       </article>
     </main>
   )
-
-
-
 }
