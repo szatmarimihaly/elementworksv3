@@ -16,11 +16,7 @@ const Cta = async({ title, subtitle, button, href } : Props) => {
         <p className="text-xl text-center text-gray-300">{subtitle}</p>
         <Link 
           href={href} 
-          className="flex items-center gap-2 text-center cta-button"
-          style={{
-            backgroundImage:
-              'linear-gradient(to right, #7dd3fc, #a855f7, #f472b6, #fb923c, #fdba74)',
-          }}
+          className="flex items-center gap-2 text-center border-2 border-gray-400/40 bg-white/5 backdrop-blur-md hover:border-gray-300/60 px-4 py-2 rounded transition-all duration-300 hover:scale-105"
         >{button}</Link>
     </div>
   )
