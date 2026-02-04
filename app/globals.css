@@ -37,7 +37,7 @@
   }
 
   .cta-button {
-    @apply px-8 py-2 rounded-full flex items-center justify-center font-bold  text-lg md:text-xl transition-all duration-300 hover:scale-105 text-center w-full max-w-sm mx-auto;
+    @apply px-4 py-2 rounded-full flex items-center justify-center font-bold text-lg md:text-xl transition-all duration-300 hover:scale-105 text-center;
   }
 
   .animate-thing {
@@ -85,7 +85,7 @@
   }
 
   .hero-sub {
-    @apply mt-20 text-center text-3xl lg:text-5xl font-bold bg-gradient-to-b from-white to-gray-600 bg-clip-text text-transparent leading-tight pb-2;
+    @apply mt-20 text-center text-3xl lg:text-5xl font-bold bg-gradient-to-r bg-clip-text text-transparent leading-tight pb-2;
   }
 
   .input-form {
@@ -94,11 +94,17 @@
 }
 
 :root {
-  --background: #000000;
+  --background: #040212;
   --foreground: #ffffff;
 
   --color-primary: #ffffff;
   --color-secondary: rgb(153, 161, 175);
+
+  --color-hero-1: #5fccff;
+  --color-hero-2: #b166f7;
+  --color-hero-3: #fd54ac;
+  --color-hero-4: #ff7300;
+  --color-hero-5: #ffa749;
 }
 
 @theme inline {
@@ -111,7 +117,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #000000;
+    --background: #040212;
     --foreground: #ffffff;
 
     --color-primary: #ffffff;

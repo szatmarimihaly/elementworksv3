@@ -105,7 +105,7 @@ export default async function Page({ params } : Params){
         <Hero title={t('Hero.serviceTitle')} description={t('Hero.serviceDescription')} />
       </section>
 
-      <div className='section-top'>
+      <div className='section-top flex flex-col items-center'>
         <CtaButton href={`/${locale}/kapcsolat`} text={t('Button.ctaServices')}/>
       </div>
 

@@ -51,7 +51,7 @@ const Navbar = ({ locale } : Props) => {
         <div className={`flex flex-col ${isOpen ? 'pb-4' : ''}`}>
             <div className='flex justify-between items-center'>
                 <Image
-                    src="/4.svg"
+                    src="/4.png"
                     alt='Elementworks logó - céges weboldal fejlesztés'
                     width={180}
                     height={100}

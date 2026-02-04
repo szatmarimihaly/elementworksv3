@@ -45,7 +45,6 @@ const Main = async ({ locale, text} : Props) => {
                 </div>
                 <h2 className='card-title'>{item.title}</h2>
                 <p className='card-subtitle'>{item.subtitle}</p>
-                <ToServices href={`/${locale}/szolgaltatasok`} toText={`${buttonText}`}/>
             </article>
         )})}
 

@@ -35,7 +35,7 @@ export function BackgroundGlow() {
       }}
     >
       <div
-        className="absolute rounded-full blur-3xl opacity-30"
+        className="absolute rounded-full blur-3xl opacity-20"
         style={{
           width: "clamp(300px, 50vw, 600px)",
           height: "clamp(300px, 50vw, 600px)",

@@ -2,7 +2,7 @@ import { NextIntlClientProvider } from 'next-intl'
 import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
 import type { ReactNode } from 'react'
-import { Geist } from "next/font/google"
+import { Rubik } from "next/font/google"
 import '../globals.css'
 import Navbar from '@/components/Nav/Navbar'
 import { BackgroundGlow } from '@/components/background/GlowEffect'
@@ -11,8 +11,9 @@ import Copyright from '@/components/Nav/Copyright'
 import { Analytics } from '@vercel/analytics/next'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 
-const geist = Geist({ 
-  subsets: ['latin']
+const rubik = Rubik({ 
+  subsets: ['latin'],
+  weight: ['400']
 })
 
 type Locale = (typeof routing.locales)[number];
@@ -34,7 +35,7 @@ export default async function LocaleLayout({
   const messages = (await import(`../../messages/${locale}.json`)).default;
 
   return (
-    <html lang={locale} className={geist.className}>
+    <html lang={locale} className={rubik.className}>
       <head>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple/apple-touch-icon.png"/>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple/apple-touch-icon-180x180.png"/>

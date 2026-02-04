@@ -23,7 +23,7 @@ export default function LanguageSwitcher() {
       </div>
       
       {/* Animated background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-500/0 via-purple-500/0 to-pink-500/0 group-hover:from-blue-500/20 group-hover:via-purple-500/20 group-hover:to-pink-500/20 transition-all duration-500 rounded-full" />
+      <div className="absolute inset-0 bg-gradient-to-r from-blue-500/0 via-purple-500/0 to-pink-500/0 group-hover:from-blue-500/20 group-hover:via-orange-500/60 group-hover:to-orange-500/30 transition-all duration-500 rounded-full" />
     </Link>
   );
 }
