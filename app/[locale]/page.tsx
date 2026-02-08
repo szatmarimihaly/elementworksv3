@@ -116,6 +116,8 @@ export default async function Page({ params }: { params: { locale: Locale } }) {
       <Paragraph text={t('MainText.sectionOne')} />
 
       <section className='section-top'>
+        <SubHero text={t("SmallHero.whyTitle")}/>
+        <Line/>
         <Main locale={locale} text='maincard' />
       </section>
 
@@ -128,11 +130,20 @@ export default async function Page({ params }: { params: { locale: Locale } }) {
       <Paragraph text={t('MainText.sectionThree')}/>
 
       <section>
-        <SubHero text={t('SmallHero.mainTitle')}/>
-        <Line />
-        <Number locale={locale} text="howcard"/>
-        <Paragraph text={t('MainText.sectionFour')}/>
+        <SubHero text={t("SmallHero.businessTitle")}/>
+        <Line/>
+        <Paragraph text={t("MainText.sectionFive")}/>
+        <Paragraph text={t("MainText.sectionSix")}/>
       </section>
+
+      {/*
+        <section>
+          <SubHero text={t('SmallHero.mainTitle')}/>
+          <Line />
+          <Number locale={locale} text="howcard"/>
+          <Paragraph text={t('MainText.sectionFour')}/>
+        </section>
+      */}
 
       <Cta
         title={t('CtaForm.fourthTitle')} 

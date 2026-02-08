@@ -65,7 +65,9 @@
     "sectionOne" : "Developing a company website is a strategic investment that can significantly contribute to the success of your business. Throughout the process, it is essential to keep in mind your business objectives, target audience needs, and modern web trends. A combination of professional design, user-friendly structure, and technical optimization ensures that your website performs effectively.",
     "sectionTwo" : "For a business, corporate website development is a key step in strengthening its online presence. A good corporate website is not just a “presentation page” but a strategic tool: it introduces your company, your services, your values, and what makes you different. During development, we ensure that the website works reliably on all devices — mobile, tablet, and desktop — and that it is designed so visitors can quickly find what they are looking for. In addition, during corporate website development, we also make sure the site is future-proof: easy to expand and update with new content or features.",
     "sectionThree" : "While today there are many DIY tools available for building websites, creating a truly effective, business-oriented website requires expertise and experience. Working with professionals not only saves time and resources but also guarantees that the final result meets your expectations in every respect.",
-    "sectionFour" : "Business website is not just an online presence, but the digital representative of your business, working for you 24/7. A well-designed and executed website can significantly enhance your business's credibility, visibility, and revenue. It represents the highest quality in the field of web development. These websites are fully tailored to your needs, featuring unique designs and functionalities that perfectly align with your business’s brand and goals."
+    "sectionFour" : "Business website is not just an online presence, but the digital representative of your business, working for you 24/7. A well-designed and executed website can significantly enhance your business's credibility, visibility, and revenue. It represents the highest quality in the field of web development. These websites are fully tailored to your needs, featuring unique designs and functionalities that perfectly align with your business’s brand and goals.",
+    "sectionFive" : "We don’t do mass production, and we don’t offer the cheapest solutions. Elementworks is the ideal partner for businesses that think long-term and demand real business value from their website. By prioritizing functionality and user experience (UX), we ensure every detail is executed with precision—backed by a transparent development process involving continuous consultation and reviews.",
+    "sectionSix" : "We deliver the agility and speed that traditional agencies often lack. This makes us the ideal fit for SMEs and startups that value streamlined communication, rapid development cycles, and dependable results. Our ultimate goal is simple: to build a system that doesn’t just meet your requirements, but drives measurable business value."
   },
 
   "ServiceText" : {
@@ -400,6 +402,10 @@
     "mainTitle": "How to Choose the Right Website Developer or Company?",
     "mainSubtitle": "Choosing the right web development partner is crucial for the success of a custom website. Here are some factors to consider when making your decision:",
 
+    "whyTitle" : "How does a professional website helps your business grow?",
+
+    "businessTitle" : "Why Choose us as Your Partner?",
+
     "serviceTitle" : "The Step-by-Step Process of Custom Website Development?",
     "serviceImage" : "Public References",
 
@@ -423,7 +429,7 @@
     "thirdSubtitle" : "Request a free consultation and quote now, and start your journey toward a fully custom website!",
     "thirdButton" : "Get in Touch",
 
-    "fourthTitle" : "Ready for the next step?",
+    "fourthTitle" : "Let’s discuss how a well-structured website can bring customers to your business",
     "fourthSubtitle" : "Request a free consultation and quote today, and begin the custom website development process!",
     "fourthButton" : "Request a Free Estimate",
 

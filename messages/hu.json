@@ -65,7 +65,9 @@
     "sectionOne" : "A céges weboldal fejlesztés egy stratégiai befektetés, amely jelentősen hozzájárulhat vállalkozása sikeréhez. A folyamat során fontos szem előtt tartani az üzleti célokat, a célközönség igényeit és a modern webes trendeket. A professzionális megjelenés, a felhasználóbarát kialakítás és a technikai optimalizálás együttesen biztosítják a weboldal hatékonyságát.",
     "sectionTwo" : "Egy vállalkozás számára a céges weboldal fejlesztés kulcsfontosságú lépés az online jelenlét erősítéséhez. A jó céges weboldal nem csak „bemutatkozó oldal”, hanem stratégiai eszköz: bemutatja a vállalkozásodat, a szolgáltatásaidat, értékeidet és azt, hogy miben különbözöl. Fejlesztéskor gondoskodunk arról, hogy az oldal megbízhatóan működjön minden eszközön – mobilon, tableten és asztali gépen is –, és úgy legyen kialakítva, hogy a látók gyorsan megtalálják, amit keresnek. Emellett a céges weboldal fejlesztés során figyelembe vesszük azt is, hogy az oldal jövő-biztos legyen: könnyű legyen bővíteni, frissíteni, akár új tartalmakkal vagy funkciókkal.",
     "sectionThree" : "Bár a weboldal készítés ma már számos DIY eszközzel is megvalósítható, a valóban hatékony, üzleti célokat szolgáló weboldal fejlesztése szakértelmet és tapasztalatot igényel. A szakemberekkel való együttműködés nemcsak időt és erőforrást takarít meg, de biztosítja, hogy a végeredmény minden szempontból megfeleljen az elvárásoknak.",
-    "sectionFour" : "Egy céges weboldal nem csupán egy online jelenlét, hanem a vállalkozás digitális képviselője, amely 24/7 dolgozik Önért. Egy jól megtervezett és kivitelezett weboldal jelentősen növelheti a vállalkozás hitelességét, láthatóságát és bevételeit. Ennek a legmagasabb minőséget képviseli a webfejlesztés területén. Ezek a weboldalak teljesen az Ön igényeire szabottak, egyedi dizájnnal és funkciókkal rendelkeznek, amelyek tökéletesen illeszkednek vállalkozása arculatához és céljaihoz."
+    "sectionFour" : "Egy céges weboldal nem csupán egy online jelenlét, hanem a vállalkozás digitális képviselője, amely 24/7 dolgozik Önért. Egy jól megtervezett és kivitelezett weboldal jelentősen növelheti a vállalkozás hitelességét, láthatóságát és bevételeit. Ennek a legmagasabb minőséget képviseli a webfejlesztés területén. Ezek a weboldalak teljesen az Ön igényeire szabottak, egyedi dizájnnal és funkciókkal rendelkeznek, amelyek tökéletesen illeszkednek vállalkozása arculatához és céljaihoz.",
+    "sectionFive" : "Nem tömeggyártásban dolgozunk, és nem a legolcsóbb megoldásokat kínáljuk. Az Elementworks azoknak a vállalkozásoknak ideális partner, akik hosszú távon gondolkodnak és valódi üzleti értéket várnak el a weboldaluktól. A tervezés során kiemelt figyelmet kap a funkcionalitás, a felhasználói élmény és a pontos kivitelezés, amelyet a fejlesztés során folyamatos egyeztetés és review kísér.",
+    "sectionSix" : "Gyorsabb és rugalmasabb megoldásokat kínálunk, mint egy hagyományos ügynökség. Ez különösen előnyös kis- és középvállalkozások, valamint startupok számára, ahol fontos a hatékony kommunikáció, a rövid fejlesztési idő és a megbízható megvalósítás. A cél minden esetben az, hogy az elkészült rendszer ne csak megfeleljen az elvárásoknak, hanem üzletileg is valódi értéket teremtsen."
   },
 
   "ServiceText" : {
@@ -400,6 +402,10 @@
     "mainTitle" : "Hogyan válasszon megfelelő weboldal fejlesztőt vagy céget?", 
     "mainSubtitle" : "A megfelelő webfejlesztő partner kiválasztása kulcsfontosságú az egyedi weboldal készítés sikeréhez. Íme néhány szempont, amelyet érdemes figyelembe venni a döntés során:",
 
+    "whyTitle" : "Hogyan segít egy profi weboldal a vállalkozása növekedésében?",
+
+    "businessTitle" : "Miért vagyunk megfelelő partner Önnek?",
+
     "serviceTitle" : "Az egyedi weboldal készítés folyamata lépésről lépésre?",
     "serviceImage" : "Nyilvános referenciák",
 
@@ -423,7 +429,7 @@
     "thirdSubtitle" : "Kérjen ingyenes konzultációt és árajánlatot most, és induljon el az egyedi weboldal készítés útján!",
     "thirdButton" : "Kapcsolatfelvétel",
 
-    "fourthTitle" : "Készen áll a következő lépésre?",
+    "fourthTitle" : "Beszéljük át, hogyan tud egy jól felépített weboldal ügyfeleket hozni az Ön vállalkozásának",
     "fourthSubtitle" : "Kérjen ingyenes konzultációt és árajánlatot most, és kezdje el az egyedi weboldal készítés folyamatát!",
     "fourthButton" : "Ingyenes ajánlatkérés",
 
